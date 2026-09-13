@@ -53,15 +53,17 @@ quadrantChart
     quadrant-2 Keep Satisfied
     quadrant-3 Monitor
     quadrant-4 Keep Informed
-    Ketua Takmir & Bendahara: [0.85, 0.88]
-    Pengelola TPA & Kepala TK: [0.78, 0.80]
-    Kepala KUA Kecamatan: [0.48, 0.78]
-    BAZNAS Kota Yogyakarta: [0.38, 0.75]
-    Kelurahan Klitren / DTKS: [0.40, 0.72]
-    Muzaki & Shahibul Qurban: [0.82, 0.30]
-    Wali Santri & Jamaah 3 RW: [0.88, 0.18]
+    Ketua Takmir & Sekretaris: [0.86, 0.90]
+    Bendahara I & II: [0.82, 0.88]
+    Sie Sosial & ZISWAF (7 anggota): [0.75, 0.78]
+    Kepala KUA Kemantren: [0.48, 0.82]
+    Kelurahan Klitren / DTKS: [0.42, 0.75]
+    BAZNAS Kota Yogyakarta: [0.38, 0.72]
+    Muzaki & Shahibul Qurban: [0.82, 0.32]
+    Wali Santri & Jamaah 3 RW: [0.88, 0.20]
+    RISMA / Remaja Masjid: [0.70, 0.35]
     BADKO TPA Gondokusuman: [0.28, 0.45]
-    Vendor Jaringan & CCTV: [0.15, 0.15]
+    Vendor QRIS & Jaringan Internet: [0.15, 0.15]
 ```
 
 ---
@@ -95,13 +97,13 @@ flowchart TD
         subgraph L2["👥 Stakeholder Langsung"]
             direction TB
             subgraph L1["🕌 Inti — SIM-BaitulHikmah"]
-                CORE["Basis Data NIK/KK Jamaah (3 RW)\nBuku Kas Digital (Penerimaan & Pengeluaran)\nData Santri TPA (< 30 anak) & Kurikulum\nModul Kepanitiaan Qurban Musiman (Jamaah 3 RW)\nKalender Penjadwalan 15 Khatib & Ruang KUA"]
+                CORE["Basis Data NIK/KK Jamaah (3 RW)\nBuku Kas Digital Multi-User & Rekonsiliasi QRIS\nTracking Santri TPA (< 30 anak) & Kurikulum\nModul Kepanitiaan Qurban & Seleksi Mustahik\nKalender Penjadwalan 15 Khatib & Ruang KUA"]
             end
-            ST_IN["Internal Masjid\nKetua Takmir · Bendahara · Sekretaris\n3–4 Marbot (Pengajar TPA) · 1 Ustadz\n17 Pemuda REMAS (Operator Digital)"]
-            ST_EX["Penerima Manfaat Lapangan\nJamaah (±400 orang) · Wali Santri\nMuzaki · Shahibul Qurban (Warga 3 RW)"]
+            ST_IN["Internal Masjid\nKetua I & II · Sekretaris · Bendahara\n3–4 Marbot (Pengajar TPA) · Sie ZISWAF\n17 Pemuda REMAS (Operator Digital Dual-Tier)"]
+            ST_EX["Penerima Manfaat Lapangan\nJamaah (±400 orang) · Wali Santri TPA\nMuzaki · Shahibul Qurban (Warga 3 RW)"]
         end
         EXT1["BAZNAS Kota Yogyakarta\nKepatuhan UPZ & Standar SIMBA"]
-        EXT2["KUA Kemantren Gondokusuman\nAgenda Akad Nikah Bulanan & Legalitas"]
+        EXT2["KUA Kemantren Gondokusuman\nSupervisi PHBI Idul Fitri/Adha ke Kemenag & Agenda Akad"]
         EXT3["Kelurahan Klitren / DTKS\nValidasi Silang Data Warga Miskin per RW"]
         EXT4["BADKO TPA Kemantren Gondokusuman\nStandarisasi Laporan Capaian Santri"]
     end
@@ -144,20 +146,20 @@ Hasil pemetaan stakeholder pada pertemuan ini perlu dikaitkan dengan tiga level 
 
 ```mermaid
 flowchart LR
-    subgraph S["🎯 STRATEGIS — Ketua Takmir & Dewan"]
-        S1["Evaluasi pemanfaatan kas infaq & donasi\nKebijakan kuota & beasiswa santri TPA\nPerluasan kemitraan UPZ & program qurban"]
+    subgraph S["🎯 STRATEGIS — Ketua Takmir & Dewan Penasehat"]
+        S1["Kebijakan transparansi kas & dana cadangan\nKebijakan kuota beasiswa santri TPA binaan\nIntegrasi kemitraan DTKS Kelurahan & BAZNAS\nEvaluasi tahunan kemitraan KUA Kemantren"]
     end
     subgraph M["📋 MANAJERIAL — Bendahara · Sekretaris · Koordinator TPA"]
-        M1["Rekonsiliasi saldo kas masuk & keluar bulanan\nRekapitulasi berkala ke BADKO TPA\nPenjadwalan 15 khatib & ustadz cadangan\nPerencanaan kupon & pembagian daging qurban"]
+        M1["Rekonsiliasi mutasi bank/QRIS & kas tunai bulanan\nPenyandingan usulan mustahik dengan DTKS Kelurahan\nSetor laporan PHBI Idul Fitri & Qurban ke KUA\nRekapitulasi berkala progres santri ke BADKO TPA\nPenjadwalan 15 khatib Jumat & ustadz badal cadangan"]
     end
-    subgraph O["⚙️ OPERASIONAL — 3 Marbot · 1 Ustadz · REMAS · Amil"]
-        O1["Pencatatan infaq kotak Jumat\nPresensi & progres jilid santri harian\nKonfirmasi kehadiran khatib H-3 via WA\nEntri pendaftar qurban & mustahik di lapangan"]
+    subgraph O["⚙️ OPERASIONAL — 3 Marbot · Pengajar TPA · 17 REMAS · Amil"]
+        O1["Pencatatan infaq kotak Jumat & konfirmasi QRIS\nPresensi santri TPA harian & kartu jilid bacaan\nInput pendaftar qurban via kanal tunggal terpadu\nEntri usulan mustahik warga dari RT/RW setempat\nKonfirmasi kehadiran khatib H-3 via WhatsApp"]
     end
 
-    O -- "Data input operasional" --> M
-    M -- "Ringkasan laporan taktis" --> S
-    S -- "Kebijakan & arahan strategis" --> M
-    M -- "SOP & instruksi kerja" --> O
+    O -- "Data transaksi operasional" --> M
+    M -- "Laporan manajerial & taktis" --> S
+    S -- "Arahan kebijakan strategis" --> M
+    M -- "SOP kerja & panduan teknis" --> O
 ```
 
 ---

@@ -223,27 +223,40 @@ Agent wajib memastikan setiap laporan mencerminkan pemahaman MSI yang benar:
 
 **SELALU gunakan Mermaid untuk semua elemen visual.** Jangan gunakan tabel ASCII atau teks art untuk diagram.
 
+### 🚨 PROTOKOL AUDIT DAN HARMONISASI MERMAID (ANTI-DIAGRAM USANG)
+> **ATURAN WAJIB AGENT:** Setiap kali ada temuan lapangan baru, pembaruan konteks, atau revisi data pada suatu modul, agent **WAJIB menyisir dan mengaudit seluruh diagram Mermaid** di Modul 1, Modul 2, Modul 3, dst., untuk memastikan diagram tidak memakai data usang (*out-of-sync*).
+> 
+> **Poin Ceklis Harmonisasi Mermaid:**
+> 1. **Power-Interest Grid (quadrantChart):** Sumbu X (Interest) & Y (Power). Pastikan kuadran Mermaid benar: Q1 (Kanan Atas = Manage Closely), Q2 (Kiri Atas = Keep Satisfied), Q3 (Kiri Bawah = Monitor), Q4 (Kanan Bawah = Keep Informed). Seluruh stakeholder pada tabel wajib muncul di diagram (termasuk Sie Sosial & ZISWAF, RISMA/REMAS, KUA, Kelurahan DTKS).
+> 2. **Interkoneksi Sistem & Ekosistem:** Wajib memuat peran ganda KUA (agenda aula + penerima laporan PHBI Idul Fitri & Qurban sesuai PMA 34/2016 untuk diteruskan ke Kemenag Kota), Kelurahan DTKS sebagai jembatan data silo kemiskinan, BAZNAS (SIMBA), dan BADKO TPA.
+> 3. **Tiga Level Keputusan:** Wajib memuat peran nyata pengurus SK 2026: Ketua I & II (Nanang Sahid & Jefri Nur Ihsan), Sekretaris I (Mardiyanto), Bendahara I (Hj. Retno), marbot merangkap pengajar TPA, dan 17 pemuda REMAS (*Dual-Tier*).
+> 4. **Eliminasi Angka Fiktif:** DILARANG memuat angka nominal kas (misal Rp 2–3 jt) atau volume hewan qurban di dalam node diagram jika belum diverifikasi langsung oleh bendahara.
+> 5. **Fishbone & Matriks Prioritas:** Kategori 6 dimensi harus berbasis tata kelola riil (bebas dari kalimat "karena belum ada aplikasi"), dan matriks prioritas harus membedakan jelas Quick Wins vs Proyek Strategis.
+
 ### Contoh Diagram yang Sering Digunakan
 
 #### Power-Interest Grid (quadrantChart)
 ```mermaid
 quadrantChart
     title Power-Interest Grid — SIM-BaitulHikmah
-    x-axis Rendah --> Tinggi
-    y-axis Rendah --> Tinggi
+    x-axis "Interest Rendah" --> "Interest Tinggi"
+    y-axis "Power Rendah" --> "Power Tinggi"
     quadrant-1 Manage Closely
     quadrant-2 Keep Satisfied
     quadrant-3 Monitor
     quadrant-4 Keep Informed
-    Ketua Takmir: [0.85, 0.9]
-    Bendahara: [0.8, 0.85]
-    Kepala TK/TPA: [0.75, 0.8]
-    KUA: [0.8, 0.5]
-    BAZNAS: [0.75, 0.45]
-    Kelurahan DTKS: [0.7, 0.4]
-    Muzaki: [0.4, 0.85]
-    Wali Santri: [0.3, 0.8]
-    BADKO TPA: [0.5, 0.25]
+    Ketua Takmir (Ketua I & II): [0.85, 0.90]
+    Bendahara I & II: [0.82, 0.88]
+    Sekretaris I & II: [0.86, 0.85]
+    Sie Sosial & ZISWAF (7 anggota): [0.75, 0.78]
+    Kepala KUA Kecamatan: [0.48, 0.82]
+    Kelurahan Klitren / DTKS: [0.42, 0.75]
+    BAZNAS Kota Yogyakarta: [0.38, 0.72]
+    Muzaki & Shahibul Qurban: [0.82, 0.32]
+    Wali Santri & Jamaah 3 RW: [0.88, 0.20]
+    RISMA / Remaja Masjid: [0.70, 0.35]
+    BADKO TPA Kemantren: [0.28, 0.45]
+    Vendor Jaringan & CCTV: [0.15, 0.15]
 ```
 
 #### Interkoneksi Sistem (flowchart)

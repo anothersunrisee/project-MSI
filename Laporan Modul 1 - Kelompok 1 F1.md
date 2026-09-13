@@ -63,15 +63,19 @@ Mengacu pada kerangka MSI, sistem informasi yang dirancang harus memenuhi lima u
 
 ```mermaid
 flowchart LR
-    A["📥 INPUT\n───────────\nInfaq Jumat & donasi rutin (nominal belum diverifikasi)\nPendaftar qurban musiman (jamaah warga 3 RW)\nPresensi santri TPA (< 30 anak)\nJadwal 15 khatib & agenda akad KUA"]
-    B["⚙️ PROSES\n───────────\nPembukuan kas multi-user terpusat\nDistribusi kupon qurban per KK/NIK\nTracking berkala jilid santri TPA\nPenjadwalan terpadu & auto-konfirmasi"]
-    C["📤 OUTPUT\n───────────\nLaporan kas sinkron tanpa selisih\nLaporan berkala ke BADKO TPA\nKalender publik jadwal khatib/ruang\nRekapitulasi distribusi daging qurban"]
-    D["👥 MANPOWER\n───────────\nBendahara & Sekretaris: kas terpadu\n3 Marbot & 1 Ustadz: data TPA\n17 REMAS: operator musiman & pemuda\nKoordinator Ibadah: jadwal 15 khatib"]
-    E["💻 TEKNOLOGI\n───────────\nWiFi Pemkot Yogyakarta & CCTV\nAplikasi SIM web/mobile ramah marbot\nBasis data terpusat (single source)\nNotifikasi WhatsApp pengingat jadwal"]
+    A["📥 INPUT\n─────────────────────────────────\n• Infaq kotak Jumat & transaksi digital QRIS\n• Pendaftar qurban musiman (warga 3 RW)\n• Presensi & progres santri TPA (< 30 anak)\n• Usulan mustahik RT/RW & data DTKS Kelurahan\n• Jadwal 15 khatib & agenda aula akad KUA"]
+    
+    B["⚙️ PROSES\n─────────────────────────────────\n• Pembukuan kas terpusat & rekonsiliasi QRIS\n• Verifikasi silang mustahik zakat per KK/NIK\n• Tracking berkala jilid santri TPA & kurikulum\n• Penjadwalan terpadu khatib & konfirmasi WA\n• Manajemen kupon & alokasi paket qurban"]
+    
+    C["📤 OUTPUT\n─────────────────────────────────\n• Papan transparansi kas mingguan & LPJ tertulis\n• Laporan berkala PHBI (Idul Fitri/Adha) ke KUA\n• Laporan berkala progres santri ke BADKO TPA\n• Laporan kepatuhan ZIS ke BAZNAS (SIMBA)\n• Kalender publik jadwal khatib & agenda masjid"]
+    
+    D["👥 MANPOWER\n─────────────────────────────────\n• Ketua I (Nanang Sahid) & Ketua II (Jefri Nur Ihsan)\n• Sekretaris I (Mardiyanto) & Bendahara I (Hj. Retno)\n• 3 Marbot (Pengajar TPA) & Sie ZISWAF\n• 17 Pemuda REMAS (Operator digital Dual-Tier)"]
+    
+    E["💻 TEKNOLOGI\n─────────────────────────────────\n• Basis data cloud terpusat (Single Source of Truth)\n• Form input tunggal (Single-Entry) pendaftaran\n• WiFi Pemkot Yogyakarta & CCTV keamanan\n• Aplikasi SIM berbasis web responsif & notifikasi WA"]
 
     A --> B --> C
-    D -. mengelola .-> B
-    E -. mendukung .-> B
+    D -. mengelola & mengawasi .-> B
+    E -. mendukung infrastruktur .-> B
 ```
 
 ---
@@ -82,20 +86,20 @@ Sistem informasi manajemen yang baik harus mampu mendukung pengambilan keputusan
 
 ```mermaid
 flowchart LR
-    subgraph S["🎯 STRATEGIS — Ketua Takmir & Dewan Penasihat"]
-        S1["Evaluasi pemanfaatan kas donasi & infaq\nKebijakan kuota & beasiswa santri TPA\nPerluasan kemitraan UPZ & agenda KUA"]
+    subgraph S["🎯 STRATEGIS — Ketua Takmir & Dewan Penasehat"]
+        S1["Kebijakan transparansi kas & dana cadangan\nKebijakan kuota beasiswa santri TPA binaan\nIntegrasi kemitraan DTKS Kelurahan & BAZNAS\nEvaluasi tahunan kemitraan KUA Kemantren"]
     end
     subgraph M["📋 MANAJERIAL — Bendahara · Sekretaris · Koordinator TPA"]
-        M1["Rekonsiliasi saldo kas masuk & keluar bulanan\nRekapitulasi berkala ke BADKO TPA\nPenjadwalan 15 khatib & ustadz cadangan\nPerencanaan kupon & pembagian daging qurban"]
+        M1["Rekonsiliasi mutasi bank/QRIS & kas tunai bulanan\nPenyandingan usulan mustahik dengan DTKS Kelurahan\nSetor laporan PHBI Idul Fitri & Qurban ke KUA\nRekapitulasi berkala progres santri ke BADKO TPA\nPenjadwalan 15 khatib Jumat & ustadz badal cadangan"]
     end
-    subgraph O["⚙️ OPERASIONAL — 3 Marbot · 1 Ustadz · REMAS · Amil"]
-        O1["Pencatatan infaq kotak Jumat\nPresensi & progres jilid santri harian\nKonfirmasi kehadiran khatib H-3 via WA\nEntri pendaftar qurban & mustahik di lapangan"]
+    subgraph O["⚙️ OPERASIONAL — 3 Marbot · Pengajar TPA · 17 REMAS · Amil"]
+        O1["Pencatatan infaq kotak Jumat & konfirmasi QRIS\nPresensi santri TPA harian & kartu jilid bacaan\nInput pendaftar qurban via kanal tunggal terpadu\nEntri usulan mustahik warga dari RT/RW setempat\nKonfirmasi kehadiran khatib H-3 via WhatsApp"]
     end
 
-    O -- "Data input operasional" --> M
-    M -- "Ringkasan laporan taktis" --> S
-    S -- "Kebijakan & arahan strategis" --> M
-    M -- "SOP & instruksi kerja" --> O
+    O -- "Data transaksi operasional" --> M
+    M -- "Laporan manajerial & taktis" --> S
+    S -- "Arahan kebijakan strategis" --> M
+    M -- "SOP kerja & panduan teknis" --> O
 ```
 
 ---
