@@ -347,3 +347,69 @@ Dari pencocokan data atas-ke-bawah (*top-down regulatory matching*), ditemukan 3
    * **Ke Atas:** Format ekspor pelaporan terstandarisasi sesuai modul SIMAS Kemenag dan SIMBA BAZNAS.
    * **Ke Samping (Sejajar):** Kalender reservasi fasilitas aula terpadu untuk acara nikah KUA dan kegiatan CSR mitra.
    * **Ke Bawah:** Modul seleksi mustahik transparan berbasis kriteria objektif yang dapat dikroscek dengan data kemiskinan kelurahan demi akuntabilitas publik.
+
+---
+
+# BAGIAN VI: KLASTER 5 — TATA KELOLA TPA BAITUL HIKMAH
+## Data Parsial dari Mas Jefri (Direktur TPA) — 7 September 2026
+
+> **⚠️ STATUS DATA:** Data ini bersumber dari dua saluran: (1) **formulir checklist** yang diisi Mas Jefri secara tertulis, dan (2) **percakapan WhatsApp** antara Fajar dan Mas Jefri (7 September 2026). Data ini bersifat parsial — wawancara mendalam belum dilakukan. Gunakan sebagai **data awal yang tervalidasi**, bukan evidence penuh.
+
+---
+
+## A. Temuan dari Checklist Tertulis (Jawaban Mas Jefri)
+
+| No | Pertanyaan | Jawaban Mas Jefri | Kode |
+|---|---|---|---|
+| 1 | Bagaimana absensi dan perkembangan santri dicatat? | **Excel/Spreadsheet** | B |
+| 2 | Apakah ada laporan perkembangan santri kepada orang tua? | **Hanya jika diperlukan** | C |
+
+---
+
+## B. Transkrip Percakapan WhatsApp (Verbatim)
+
+**Tanggal:** 7 September 2026, pukul 15:09–17:18  
+**Partisipan:** Fajar Ahnaf (pewawancara) & Mas Jefri (Direktur TPA Baitul Hikmah)
+
+> **[15:09] Fajar:** Mas kemarin kendala TPA sama badko itu apa ya?
+>
+> **[15:11] Mas Jefri:** Kendala izop, itu urusannya sama kemenag, tapi uda jadi izopnya sekarang
+>
+> **[15:12] Fajar:** Dari TPA sendiri, izopnya itu butuh apa aja mas? Misal kemarin belum ada data resmi kegiatan, ustadz, siswa gitu ga mas?
+>
+> **[17:00] Mas Jefri:** Data uda ada semua cuma yg bikin lama itu konfirmasi dari kemenag nya
+>
+> **[17:01] Mas Jefri:** Tapi setelah di konfirmasi, proses pengusulan SK nya sangat cepat
+>
+> **[17:02] Mas Jefri:** Kendala konfirmasinya itu harus japri pribadi sama staf yg ngurus, badko yg jadi penghubung tpa dgn kemenag
+>
+> **[17:05] Fajar:** Okaay mas, makasi yaa datanyaa, soalnya ini terkait pengurusan internal masjid dengan organisasi luar
+>
+> **[17:18] Mas Jefri:** Okey sama²
+
+---
+
+## C. Tabel Temuan Empiris TPA (Hasil Parsing Data Parsial)
+
+| Klaster | Temuan Faktual | Implikasi MSI |
+|:---|:---|:---|
+| **Pencatatan Santri** | Absensi & perkembangan santri dicatat via **Excel/Spreadsheet** | Data digital lokal — rentan hilang jika perangkat rusak (mirroring insiden PC sekretariat Feb 2026) |
+| **Komunikasi ke Orang Tua** | Laporan perkembangan santri **hanya jika diperlukan** (bukan rutin) | Tidak ada mekanisme feedback periodik → wali santri pasif, tidak terlibat aktif dalam monitoring |
+| **Kelengkapan Data Internal** | Mas Jefri: *"Data uda ada semua"* (kegiatan, ustadz, siswa) | TPA sudah punya basis data — perlu diverifikasi apakah terstruktur/terpusat atau tersebar |
+| **Status Legalitas IZOP** | IZOP (**Izin Operasional**) TPA sudah terbit dari Kemenag | Pernah beroperasi tanpa izin resmi → risiko hukum di masa lalu, kini sudah comply |
+| **Bottleneck Pengurusan IZOP** | Konfirmasi Kemenag harus **japri pribadi staf** yang mengurus | Tidak ada jalur formal/loket resmi → proses bergantung pada koneksi personal, bukan prosedur institusional |
+| **Peran BADKO TPA** | BADKO TPA berperan sebagai **penghubung TPA ↔ Kemenag** | Ketergantungan pada BADKO sebagai intermediary; belum diketahui apakah ada laporan semesteran rutin |
+
+---
+
+## D. Data yang Masih Belum Diperoleh (Pending)
+
+> Pertanyaan-pertanyaan berikut **belum terjawab** dan perlu ditindaklanjuti via wawancara lanjutan atau proxy interview ke Bpk. Mardianto:
+
+| Pertanyaan Kritis | Relevansi untuk MSI |
+|---|---|
+| Berapa jumlah santri aktif sekarang vs. 3–5 tahun lalu? | Tren penurunan santri sebagai indikator masalah |
+| Apakah kas SPP disimpan di rekening terpisah atau campur kas masjid? | Risiko pencampuran dana & pengendalian internal |
+| Apakah ada buku induk/master rekapitulasi santri terpusat di masjid? | Single source of truth vs. data tersebar di kartu santri |
+| Apakah ada laporan semesteran santri ke BADKO TPA? | Kepatuhan terhadap standar pembinaan TPA Kemenag |
+| Siapa yang mengelola absensi Excel — Mas Jefri atau marbot? | Dependensi personal vs. prosedur terdistribusi |

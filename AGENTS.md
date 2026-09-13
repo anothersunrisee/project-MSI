@@ -22,7 +22,7 @@ Sebelum mengerjakan laporan atau tugas apapun di project ini, agent WAJIB membac
 | `validasi akademik dan rasionalisasi msi.md` | Justifikasi akademik MSI vs aplikasi, Task-Technology Fit, Internal Control, TAM, IT Resistance | ✅ Aktif |
 | `komparasi benchmark masjid nurul ashri deresan dan tata kelola eksternal.md` | Analisis komparatif desk research Nurul Ashri (website publik) vs Baitul Hikmah — **Perlu diperbarui setelah wawancara Selasa** | 🟡 Aktif (partial) |
 | `panduan wawancara lapangan msi.md` | Instrumen wawancara lapangan universal (makro-meso-mikro, TPA, penurunan jamaah/santri) | ✅ Aktif |
-| `instrumen wawancara direktur tpa baitul hikmah.md` | Instrumen wawancara khusus Mas Jefri (Direktur TPA) — **DATA TPA BELUM DIPEROLEH** | 🔴 Menunggu |
+| `instrumen wawancara direktur tpa baitul hikmah.md` | Instrumen wawancara khusus Mas Jefri (Direktur TPA) — **DATA PARSIAL SUDAH DIPEROLEH** (checklist + WA 7 Sep 2026), wawancara mendalam belum dilakukan | 🟡 Parsial |
 | `instrumen wawancara masjid nurul ashri deresan.md` | Instrumen untuk benchmark Masjid Nurul Ashri Deresan — **Dijadwalkan Selasa** | 🟡 Menunggu |
 | `panduan presentasi dan pemahaman msi.md` | Narasi "bahasa bayi" konsep MSI (motor balap vs aturan jalan) | ✅ Aktif |
 | `tata kelola informasi bottom-up.md` | Alur tata kelola informasi dari level bawah ke atas | ✅ Aktif |
@@ -39,7 +39,14 @@ Berikut adalah fakta *hard* dari transkrip wawancara Bpk. Mardianto (Sekretaris,
 - Mustahik ZIS: ditentukan **tanpa DTKS** kelurahan, berdasar pengamatan warga
 - QRIS & rekening bank: **sudah ada** atas nama masjid
 - Marbot: mengimami shalat + bersih-bersih + **ngajar TPA** (bukan administrasi)
-- Data TPA mendalam: **belum diperoleh** (menunggu wawancara Mas Jefri)
+- **[TPA — Data Parsial dari Mas Jefri, 7 Sep 2026]**
+  - Absensi santri: dicatat via **Excel/Spreadsheet** (bukan manual murni)
+  - Laporan ke orang tua: **hanya jika diperlukan** (tidak rutin)
+  - IZOP (Izin Operasional TPA): **sudah terbit** dari Kemenag (pernah beroperasi tanpa izin)
+  - Bottleneck IZOP: konfirmasi Kemenag harus **japri pribadi staf** (tidak ada jalur formal)
+  - BADKO TPA: menjadi **penghubung TPA ↔ Kemenag** untuk proses IZOP
+  - Data internal TPA (santri, ustadz, kegiatan): Mas Jefri klaim *"sudah ada semua"*
+  - **Belum diperoleh:** jumlah santri aktif vs. dulu, kas SPP terpisah atau tidak, buku induk master santri
 
 ### File Laporan yang Sudah Ada (Referensi Konsistensi)
 | File | Keterangan |
