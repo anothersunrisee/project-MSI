@@ -271,3 +271,79 @@ flowchart TD
   1. Takmir telah memiliki rekening bank resmi dan kanal QRIS.
   2. Kemitraan eksternal yang sangat baik dengan instansi wilayah (Koramil, Polsek, Kemantren, KUA) dan CSR Superindo.
   3. Sikap terbuka pengurus untuk mengadopsi penyimpanan cloud (*Google Drive*) dan kesadaran merekrut tenaga akuntansi (Wakil Bendahara) untuk perbaikan tata kelola.
+
+---
+
+# BAGIAN IV: ANALISIS TATA KELOLA ATAS-KE-BAWAH (TOP-DOWN REGULATORY HIERARCHY)
+### Evaluasi Keselarasan Regulasi Resmi Pemerintah & Skala Tipologi "Masjid Besar"
+
+Dalam standar pembinaan Kementerian Agama RI, **Masjid Besar Baitul Hikmah** menyandang tipologi formal sebagai **Masjid Besar (Tingkat Kecamatan/Kemantren Gondokusuman)**. Berdasarkan regulasi negara, tipologi ini membawa konsekuensi tata kelola informasi dan tanggung jawab manajerial yang jauh lebih tinggi daripada masjid lingkungan (Masjid Jami' / Masjid RT).
+
+```mermaid
+flowchart TD
+    subgraph MAKRO["🏛️ TINGKAT MAKRO / NASIONAL"]
+        KEMENAG["Kementerian Agama RI & Bimas Islam\n(Kepdirjen DJ.II/802/2014 & SIMAS)"]
+        BAZNAS_PUSAT["BAZNAS RI\n(UU No. 23/2011 & SIMBA)"]
+        BWI["Badan Wakaf Indonesia (BWI)\n(UU No. 41/2004)"]
+    end
+
+    subgraph MESO_KOTA["🏢 TINGKAT KOTA / KABUPATEN & KECAMATAN"]
+        KEMENAG_KOTA["Kemenag Kota Yogyakarta"]
+        KUA["KUA Kemantren Gondokusuman\n(PPAIW & Pembina Idarah-Imarah-Ri'ayah)"]
+        DMI["Dewan Masjid Indonesia (DMI) Gondokusuman\n(Penerbit SK Takmir)"]
+        KEMANTREN["Kemantren Gondokusuman\n(Pamong Praja & Trantib)"]
+        BAZNAS_KOTA["BAZNAS Kota Yogyakarta"]
+    end
+
+    subgraph MIKRO_MASJID["🕌 TINGKAT OPERASIONAL (TARGET STUDI)"]
+        BAITUL["Masjid Besar Baitul Hikmah\n(Klitren, Gondokusuman)"]
+    end
+
+    subgraph BASIS_WARGA["🏘️ LINGKUNGAN MASYARAKAT & SWASTA"]
+        KELURAHAN["Kelurahan Klitren\n(Data DTKS / Kemiskinan)"]
+        RT_RW["Pengurus RW & RT 01-05"]
+        SUPERINDO["Mitra Swasta: Superindo Klitren"]
+        JAMAAN["Jamaah, Santri, & Mustahik"]
+    end
+
+    KEMENAG -->|Standar Manajemen & ID SIMAS| KUA
+    BAZNAS_PUSAT -->|Regulasi UPZ & SIMBA| BAZNAS_KOTA
+    KUA -->|Registrasi SIMAS & Pengawasan Nikah| BAITUL
+    DMI -->|Surat Keputusan (SK) Takmir| BAITUL
+    KEMANTREN -->|Izin Keramaian Shalat Ied| BAITUL
+    BAZNAS_KOTA -.->|Proposal Bantuan Insidental| BAITUL
+    BAITUL -->|Laporan Qurban| RT_RW
+    BAITUL -->|Izin Penggunaan Halaman Parkir| SUPERINDO
+    KELURAHAN -.->|Data DTKS Terputus (Tidak Terintegrasi)| BAITUL
+    BAITUL -->|Layanan Ibadah & Sosial| JAMAAN
+```
+
+---
+
+### TABEL MATRIKS HIERARKI REGULASI VS FAKTA LAPANGAN BAITUL HIKMAH
+
+| Tingkatan Regulasi | Otoritas / Lembaga | Dasar Hukum & Aturan Resmi | Standar Normatif Tipologi "Masjid Besar" | Fakta Empiris Masjid Baitul Hikmah (Hasil Wawancara) | Evaluasi Kesenjangan (*Gap Analysis*) & Isu MSI |
+|:---|:---|:---|:---|:---|:---|
+| **1. Nasional / Makro (Kemenag RI)** | Kementerian Agama RI (Ditjen Bimas Islam) | • **Keputusan Dirjen Bimas Islam No. DJ.II/802 Tahun 2014** tentang Standar Pembinaan Manajemen Masjid.<br>• Sistem Informasi Masjid (**SIMAS** Kemenag). | • Menjadi **pusat rujukan dan pembina** masjid-masjid jami' di satu kecamatan.<br>• Standar tata kelola 3 bidang formal: **Idarah** (organisasi/administrasi), **Imarah** (kemakmuran ibadah), dan **Ri'ayah** (sarpras & fisik).<br>• Profil terdaftar dan terverifikasi di SIMAS nasional secara dinamis. | • Masjid sudah terdaftar resmi di SIMAS Kemenag.<br>• Pembagian bidang (Idarah/Imarah/Ri'ayah) secara struktur ada, namun beban idarah bertumpu pada satu figur sekretaris.<br>• **Belum menjalankan fungsi pembinaan** terhadap masjid-masjid lain di wilayah Gondokusuman. | **Kesenjangan Skala Peran:** Masjid Besar Baitul Hikmah secara de jure berstatus Masjid Besar tingkat kecamatan, namun secara de facto masih beroperasi sebagai **masjid jami' lingkungan lokal** (fokus urusan internal jamaah sendiri). |
+| **2. Meso-Kecamatan (KUA & Kepenghuluan)** | Kantor Urusan Agama (KUA) Kemantren Gondokusuman | • **PMA No. 34 Tahun 2016** tentang Organisasi dan Tata Kerja KUA.<br>• KUA sebagai PPAIW (Pejabat Pembuat Akta Ikrar Wakaf).<br>• Koordinasi Bimbingan Perkawinan (Bimwin) & Hisab Rukyat. | • Sinkronisasi jadwal layanan nikah & peribadatan.<br>• Pengiriman update berkala data keagamaan (jamaah shalat Ied, data hewan qurban, data takmir) dari KUA ke Kemenag Kota.<br>• KUA sebagai supervisor perwakafan dan arah kiblat. | • Hubungan berjalan harmonis dan rutin.<br>• KUA sering meminjam aula masjid untuk prosesi akad nikah dengan surat permohonan resmi.<br>• Update data SIMAS disalurkan masjid lewat KUA secara lancar (misal data salat Id & jumlah takmir). | **Arsip Transaksional Manual:** Koordinasi peminjaman aula KUA masih berbasis surat kertas lepas. Belum ada kalender ruang (*shared resource calendar*) terintegrasi yang mencegah bentrok jadwal antara akad nikah KUA dan kegiatan majelis taklim masjid. |
+| **3. Tata Kelola Keorganisasian (DMI)** | Dewan Masjid Indonesia (DMI) Cabang Gondokusuman | • **AD/ART Dewan Masjid Indonesia**.<br>• Standar Pembukuan Akuntansi Masjid & Pengesahan Takmir. | • Masa bakti kepengurusan takmir 3–5 tahun yang disahkan lewat **Surat Keputusan (SK)** DMI/KUA.<br>• Pembinaan periodik akuntabilitas keuangan takmir dan transparansi kotak infak. | • Legalitas takmir resmi memegang SK dari DMI Cabang Kecamatan Gondokusuman dengan masa bakti 5 tahun.<br>• Pemilihan melalui musyawarah terbuka jamaah (sistem suara terbanyak).<br>• **DMI tidak melakukan supervisi/audit** saat laporan keuangan bendahara macet 3 tahun. | **Ketiadaan Pengawasan Eksternal (*External Governance Void*):** SK dari DMI hanya berfungsi sebagai legitimasi formal administratif di awal periode, tanpa mekanisme audit atau evaluasi berkala terhadap kepatuhan tata kelola kas masjid. |
+| **4. Pemerintahan Wilayah (Kemantren & Kelurahan)** | Kemantren Gondokusuman & Kelurahan Klitren | • **SKB 2 Menteri No. 9 & 8 Tahun 2006** (Pedoman Pemeliharaan Kerukunan Umat Beragama).<br>• Regulasi Ketertiban Umum & Izin Keramaian Publik.<br>• Instruksi Walikota Yogyakarta tentang Penanggulangan Kemiskinan. | • Perizinan penggunaan fasilitas publik untuk ibadah massa (Shalat Ied di luar gedung).<br>• Sinergi penyaluran bantuan sosial mustahik berbasis **Data Terpadu Kesejahteraan Sosial (DTKS)** Kelurahan. | • Perizinan Shalat Ied di area Superindo Klitren berjalan sangat tertib (melibatkan Kelurahan, Kemantren, Koramil, Polsek).<br>• **Data Mustahik Menolak DTKS:** Takmir tidak meminta dan tidak menggunakan data DTKS kelurahan untuk menentukan warga miskin penerima zakat/qurban; mengandalkan perkiraan tim warga sendiri. | **Data Silo & Risiko Bias Subjektif:** Sikap takmir yang memutus alur data DTKS dari Kelurahan berisiko menimbulkan *exclusion error* (warga miskin baru/pendatang terlewat karena tidak akrab dengan takmir) dan *inclusion error* (bantuan tumpang tindih dengan penerima bansos PKH kelurahan). |
+| **5. Regulasi Pengelolaan ZIS (BAZNAS)** | BAZNAS Kota Yogyakarta | • **UU No. 23 Tahun 2011** tentang Pengelolaan Zakat.<br>• **Perbaznas No. 2 Tahun 2016** tentang Pembentukan dan Tata Kerja Unit Pengumpul Zakat (UPZ).<br>• Pelaporan Sistem Manajemen BAZNAS (**SIMBA**). | • Masjid Besar tingkat kecamatan wajib membentuk **UPZ Resmi** ber-SK BAZNAS Kota.<br>• Wajib menyetorkan laporan penghimpunan dan penyaluran ZIS secara semesteran/tahunan yang terintegrasi SIMBA. | • Pembentukan panitia zakat masih ad-hoc musiman.<br>• Hubungan ke BAZNAS sebatas mengirimkan proposal permohonan bantuan dana sosial, bukan pelaporan kepatuhan UPZ.<br>• Tidak terhubung ke aplikasi SIMBA. | **Kepatuhan Regulasi Zakat Rendah:** Dari kacamata UU 23/2011, pengumpulan zakat tanpa status UPZ resmi berisiko hukum dan tidak memiliki standar audit syariah yang terstandarisasi secara nasional. |
+
+---
+
+# BAGIAN V: SINTESIS KESESUAIAN SEBAGAI "MASJID BESAR" DARI PERSPEKTIF MSI
+
+Dari pencocokan data atas-ke-bawah (*top-down regulatory matching*), ditemukan 3 paradoks mendasar pada skala operasional Masjid Besar Baitul Hikmah:
+
+1. **Paradoks Status Yuridis vs Realitas Pembinaan:**
+   Masjid ini memegang predikat **Masjid Besar** (tingkat kemantren/kecamatan), namun pola operasionalnya masih bercorak masjid jami' lingkungan RT/RW. Sistem informasi yang dirancang harus membantu masjid mengemban fungsi pembinaan (*coordination hub*) bagi masjid-masjid sekitar di Gondokusuman.
+
+2. **Paradoks Hubungan Eksternal (Harmonis Fisik, Terisolasi Informasi):**
+   Hubungan fisik/kemitraan dengan KUA, Kemantren, Polsek, Koramil, dan Superindo berjalan sangat baik. Namun, secara tata kelola data masih berupa **silo terisolir** (tidak ada pertukaran jadwal ruang nikah real-time dengan KUA, tidak ada rekonsiliasi data mustahik dengan DTKS kelurahan, dan tidak ada supervisi audit buku kas dari DMI).
+
+3. **Arah Intervensi MSI (Inter-Organizational System):**
+   SIM-BaitulHikmah harus bertindak sebagai jembatan informasi:
+   * **Ke Atas:** Format ekspor pelaporan terstandarisasi sesuai modul SIMAS Kemenag dan SIMBA BAZNAS.
+   * **Ke Samping (Sejajar):** Kalender reservasi fasilitas aula terpadu untuk acara nikah KUA dan kegiatan CSR mitra.
+   * **Ke Bawah:** Modul seleksi mustahik transparan berbasis kriteria objektif yang dapat dikroscek dengan data kemiskinan kelurahan demi akuntabilitas publik.
