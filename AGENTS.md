@@ -10,33 +10,49 @@
 
 Sebelum mengerjakan laporan atau tugas apapun di project ini, agent WAJIB membaca file-file berikut terlebih dahulu:
 
-### File Konteks Inti
-| File | Isi |
-|---|---|
-| `notes kelas.md` | Panduan akademis Bu Ratna — filosofi MSI, 7 aspek, RACI, Power-Interest Grid, 5 unsur sistem |
-| `data draft.md` | Data faktual lapangan Masjid Besar Baitul Hikmah |
-| `migrasi 1.md` | Analisis kelayakan migrasi topik dari UNYParkir ke SIM-BaitulHikmah |
-| `migrasi 2.md` | Revisi Modul 1 & brainstorming Modul 2 berbasis SIM-Masjid |
-| `migrasi 3.md` | Draf terstruktur khusus Masjid Besar Baitul Hikmah |
-| `validasi akademik dan rasionalisasi msi.md` | Justifikasi akademik MSI vs aplikasi, Task-Technology Fit, Internal Control, TAM, IT Resistance |
-| `komparasi benchmark masjid jogokariyan dan tata kelola eksternal.md` | Analisis komparatif ekosistem Jogokariyan vs Baitul Hikmah, maturity model, koreksi TPA BADKO |
-| `panduan wawancara lapangan msi.md` | Instrumen wawancara lapangan universal (makro-meso-mikro, TPA, penurunan jamaah/santri) |
-| `panduan wawancara ringkas 30 menit.md` | Instrumen wawancara lapangan ringkas (6 pertanyaan payung & checklist 30 menit) |
-| `hasil wawancara masjid pembanding dan analisis komparasi.md` | Transkrip harfiah wawancara Masjid Mujur Al-Amin, evaluasi ketercapaian MSI, & taktik komparasi |
-| `panduan presentasi dan pemahaman msi.md` | Narasi "bahasa bayi" konsep MSI (motor balap vs aturan jalan) |
-| `tata kelola informasi bottom-up.md` | Alur tata kelola informasi dari level bawah ke atas |
+### File Konteks Inti (AKTIF — Wajib Dibaca)
+
+> ⚠️ File-file lama (`data draft.md`, `migrasi 1/2/3.md`) sudah **diarsipkan** ke `_arsip_lama/` dan TIDAK boleh direferensikan. Gunakan hanya file di bawah ini.
+
+| File | Isi | Status |
+|---|---|---|
+| `notes kelas.md` | Panduan akademis Bu Ratna — filosofi MSI, 7 aspek, RACI, Power-Interest Grid, 5 unsur sistem | ✅ Aktif |
+| `hasil wawancara masjid.md` | **Sumber Data Primer Utama.** Transkrip verbatim + Tabel Temuan Empiris (8 klaster) + Spektrum Masalah Mermaid + Hierarki Regulasi Top-Down | ✅ Aktif |
+| `hasil wawancara masjid pembanding dan analisis komparasi.md` | Transkrip harfiah wawancara Masjid Mujur Al-Amin (pembanding empiris lapangan) + analisis komparasi 3 level | ✅ Aktif |
+| `validasi akademik dan rasionalisasi msi.md` | Justifikasi akademik MSI vs aplikasi, Task-Technology Fit, Internal Control, TAM, IT Resistance | ✅ Aktif |
+| `komparasi benchmark masjid jogokariyan dan tata kelola eksternal.md` | Analisis komparatif ekosistem Jogokariyan vs Baitul Hikmah, maturity model, koreksi TPA BADKO | ✅ Aktif |
+| `panduan wawancara lapangan msi.md` | Instrumen wawancara lapangan universal (makro-meso-mikro, TPA, penurunan jamaah/santri) | ✅ Aktif |
+| `instrumen wawancara direktur tpa baitul hikmah.md` | Instrumen wawancara khusus Mas Jefri (Direktur TPA) — **DATA TPA BELUM DIPEROLEH** | 🔴 Menunggu |
+| `instrumen wawancara masjid nurul ashri deresan.md` | Instrumen untuk benchmark Masjid Nurul Ashri Deresan — **Dijadwalkan Selasa** | 🟡 Menunggu |
+| `panduan presentasi dan pemahaman msi.md` | Narasi "bahasa bayi" konsep MSI (motor balap vs aturan jalan) | ✅ Aktif |
+| `tata kelola informasi bottom-up.md` | Alur tata kelola informasi dari level bawah ke atas | ✅ Aktif |
+
+### ⚠️ FAKTA LAPANGAN YANG SUDAH TERVALIDASI (Anti-Halusinasi)
+Berikut adalah fakta *hard* dari transkrip wawancara Bpk. Mardianto (Sekretaris, bukan Ketua Takmir):
+- Jabatan narasumber: **Sekretaris** sejak 2004 (bukan Ketua Takmir)
+- Insiden kritis: PC rusak **Februari 2026**, data ter-recovery hanya **30%** (70% hilang permanen)
+- Laporan keuangan: Bendahara 1 tidak membuat laporan tertulis selama **3 tahun berturut-turut**
+- Penyimpanan dokumen: di **komputer lokal + fisik di rumah pribadi** (bukan Google Drive)
+- Rapat takmir: setiap **3 bulan sekali**
+- Khatib Jumat: **terjadwal 1 tahun penuh**, ada ustadz badal jika batal
+- Pendaftaran Qurban: via **WhatsApp → buku tulis → komputer** (triple entry)
+- Mustahik ZIS: ditentukan **tanpa DTKS** kelurahan, berdasar pengamatan warga
+- QRIS & rekening bank: **sudah ada** atas nama masjid
+- Marbot: mengimami shalat + bersih-bersih + **ngajar TPA** (bukan administrasi)
+- Data TPA mendalam: **belum diperoleh** (menunggu wawancara Mas Jefri)
 
 ### File Laporan yang Sudah Ada (Referensi Konsistensi)
 | File | Keterangan |
 |---|---|
-| `Laporan Modul 1 - Kelompok 1 F1.md` | Laporan Pertemuan 1 (sudah final) |
-| `Laporan Modul 2 - Kelompok 1 F1.md` | Laporan Pertemuan 2 (sudah final) |
+| `Laporan Modul 1 - Kelompok 1 F1.md` | Laporan Pertemuan 1 (sudah final — perlu direvisi konsistensi narasumber) |
+| `Laporan Modul 2 - Kelompok 1 F1.md` | Laporan Pertemuan 2 (sudah final — perlu direvisi konsistensi narasumber) |
 
 ### Template Resmi (Struktur Wajib)
 | File | Keterangan |
 |---|---|
 | `Modul 1 template.pdf` | Template resmi Pertemuan 1 dari Bu Ratna |
 | `Modul 2 template.pdf` | Template resmi Pertemuan 2 dari Bu Ratna |
+| `Modul 3 template.md` | Template Pertemuan 3 (hasil transkripsi PDF Modul 3) — **Target Segera** |
 
 ---
 
@@ -92,10 +108,10 @@ Setelah bertanya dan mendapatkan jawaban, agent WAJIB membuat **Implementation P
 
 ### Konteks yang Dibaca
 - [x] notes kelas.md
-- [x] data draft.md
-- [x] migrasi 1/2/3.md
+- [x] hasil wawancara masjid.md (sumber data primer)
+- [x] hasil wawancara masjid pembanding dan analisis komparasi.md
 - [x] Laporan Modul sebelumnya (referensi konsistensi)
-- [x] Template PDF Modul [X]
+- [x] Template PDF/MD Modul [X]
 
 ### Struktur Laporan yang Akan Dibuat
 1. Identitas Laporan
@@ -280,6 +296,51 @@ flowchart TD
 
 ---
 
+## 🗓️ PANDUAN PER-MODUL: TARGET, ARTEFAK, DAN ANTI-SLOP
+
+### Modul 1 — Profil Organisasi & Identifikasi Sistem (DONE)
+- **Tujuan:** Mendeskripsikan organisasi, proses bisnis, dan sistem informasi yang sedang berjalan.
+- **Artefak Wajib:** Tabel profil organisasi, diagram proses bisnis (flowchart Mermaid), identifikasi sistem yang ada.
+- **Anti-Slop:** Jangan mendeskripsikan fitur yang diinginkan. Fokus pada *apa yang ada sekarang*, bukan *apa yang akan dibuat*.
+- **Status:** ✅ Final (perlu revisi kecil: pastikan nama narasumber = Bpk. Mardianto, jabatan = Sekretaris)
+
+### Modul 2 — Peta Stakeholder & Lingkungan Bisnis (DONE)
+- **Tujuan:** Mengidentifikasi semua pemangku kepentingan dan kebutuhan informasi masing-masing.
+- **Artefak Wajib:** Power-Interest Grid (quadrantChart Mermaid), RACI matrix, peta lingkungan bisnis (lingkaran konsentris).
+- **Anti-Slop:** Stakeholder bukan sekadar "pengguna". Setiap entitas harus dijelaskan *otoritas datanya* (berwenang atas data apa?).
+- **Status:** ✅ Final (perlu revisi: pastikan konsisten dengan data lapangan)
+
+### Modul 3 — Analisis Masalah & Prioritas Solusi (TARGET SEGERA)
+- **Tujuan:** Mengidentifikasi ≥3 masalah utama, menelusuri 1 akar masalah dengan Fishbone+5-Why, membuat matriks prioritas, dan menetapkan pernyataan masalah prioritas.
+- **Artefak Wajib:**
+  1. **Tabel Masalah Teridentifikasi** (min. 3 masalah) + kolom *Sumber/Metode: wajib ≥2 sumber berbeda*
+  2. **Fishbone Diagram** (Mermaid) — kategori: Manusia, Proses, Teknologi, Kebijakan, Data, Lingkungan
+  3. **Analisis 5-Why** — untuk 1 akar masalah terpilih
+  4. **Matriks Prioritas** (quadrantChart Mermaid: Dampak vs Upaya)
+  5. **Pernyataan Masalah Prioritas Akhir** — kalimat kondisi penyebab, bukan solusi
+- **Anti-Slop Khusus Modul 3:**
+  - ❌ JANGAN menulis "karena belum ada aplikasi" sebagai penyebab — ini adalah solusi, bukan akar masalah
+  - ❌ JANGAN membuat Fishbone dari asumsi — setiap cabang HARUS ada *evidence*-nya dari `hasil wawancara masjid.md`
+  - ❌ JANGAN menyebut gejala (kehilangan data) sebagai akar masalah — telusuri mengapa itu terjadi
+  - ✅ Masalah yang bisa dipilih (sudah tervalidasi dari wawancara):
+    * Hilangnya 70% data (PC rusak Feb 2026) → akar: tidak ada kebijakan backup
+    * Laporan keuangan macet 3 tahun → akar: tidak ada SOP audit internal & segregation of duties
+    * Key-person dependency sekretaris merangkap 6+ fungsi → akar: tidak ada distribusi peran & transfer pengetahuan
+    * Data mustahik tanpa DTKS → akar: tidak ada integrasi data antar-lembaga
+    * Triple entry pendaftaran Qurban → akar: tidak ada kanal input tunggal yang terstandarisasi
+  - ✅ Sumber evidence untuk Lembar Kerja (gunakan minimal 2):
+    * Sumber 1: Transkrip wawancara Bpk. Mardianto (hasil wawancara masjid.md)
+    * Sumber 2: Komparasi empiris Masjid Mujur Al-Amin (hasil wawancara masjid pembanding...md)
+    * Sumber 3 (jika perlu): Regulasi Kemenag DJ.II/802/2014 (standar Masjid Besar)
+- **Tanggal Pelaksanaan:** Konfirmasi ke user (estimasi 2026-09-07, bisa beda)
+- **Status:** 🔴 Belum dikerjakan
+
+### Modul 4 (dst.) — Project Scope & WBS (Mendatang)
+- **Catatan:** Data TPA dari Mas Jefri & Nurul Ashri Deresan menjadi pengayaan untuk Modul 4+.
+- **Jangan jadikan data TPA dan Nurul Ashri sebagai blocker Modul 3.**
+
+---
+
 ## 📁 KONVENSI PENAMAAN FILE
 
 ```
@@ -377,12 +438,36 @@ Referensi berikut selalu dimasukkan di setiap laporan (pilih yang relevan):
 
 Sebelum menyatakan laporan selesai, agent WAJIB memverifikasi:
 
+**Struktur & Format**
 - [ ] 7 bagian utama terisi lengkap dan rapi
-- [ ] Identitas laporan benar (nama, NIM, tanggal, pertemuan)
+- [ ] Identitas laporan benar: nama, NIM, **tanggal aktual** (konfirmasi ke user), pertemuan
+- [ ] Nama narasumber: **Bpk. Mardianto**, jabatan: **Sekretaris** (bukan Ketua Takmir)
 - [ ] Semua diagram menggunakan sintaks Mermaid (bukan ASCII art)
-- [ ] Refleksi mengaitkan pengalaman + konsep MSI + penerapan ke depan
-- [ ] Kendala bersifat spesifik (bukan generik)
-- [ ] Tidak ada bahasa "aplikasi-sentris" (fokus selalu pada tata kelola informasi)
-- [ ] Minimal satu referensi ke 3 level keputusan (operasional-manajerial-strategis)
 - [ ] Nama file sesuai konvensi: `Laporan Modul [N] - Kelompok 1 F1.md`
+
+**Konten & Kedalaman Akademik**
+- [ ] Setiap klaim empiris dikaitkan ke sumber wawancara (bukan asumsi)
+- [ ] Tidak ada bahasa "aplikasi-sentris" (bukan "kami membuat fitur X")
+- [ ] Minimal satu referensi ke 3 level keputusan (operasional-manajerial-strategis)
+- [ ] Refleksi mengaitkan pengalaman + konsep MSI + penerapan ke depan
+- [ ] Kendala bersifat spesifik (bukan generik "kami kesulitan")
 - [ ] Konten konsisten dengan laporan-laporan pertemuan sebelumnya
+
+**Anti-Halusinasi (Khusus Modul 3+)**
+- [ ] Fishbone/5-Why hanya berisi penyebab yang ADA di data lapangan
+- [ ] Tidak ada angka/data yang tidak ada di `hasil wawancara masjid.md`
+- [ ] Pernyataan masalah prioritas dirumuskan sebagai *kondisi penyebab*, bukan solusi/fitur
+- [ ] Setiap baris Lembar Kerja Modul 3 mencantumkan ≥2 sumber yang saling menguatkan
+
+## 🧑‍🔬 CATATAN PENELITI — AWARENESS GAPS
+
+Sebagai peneliti yang jujur, perlu diingat bahwa data saat ini memiliki keterbatasan:
+
+| Gap | Dampak pada Laporan | Status |
+|---|---|---|
+| Data TPA mendalam (Mas Jefri) belum diperoleh | Analisis proses bisnis TPA hanya dari 1 pernyataan Bpk. Mardianto | 🔴 Pending |
+| Data keuangan numerik (nominal kas, ZIS) tidak diperoleh | Evidence keuangan masih kualitatif | 🟡 Partial |
+| Nurul Ashri Deresan belum diwawancarai | Spektrum benchmark hanya 2 masjid (bukan 3) | 🟡 Dijadwalkan Selasa |
+| Laporan Modul 1 & 2 belum direvisi dengan fakta lapangan | Ada risiko inkonsistensi lintas laporan | 🟡 Perlu segera |
+
+Dalam laporan, JANGAN memalsukan data yang belum ada. Jika ada gap, nyatakan sebagai "data belum tersedia" atau "memerlukan konfirmasi lanjutan".
