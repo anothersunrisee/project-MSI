@@ -29,23 +29,29 @@ Sebelum mengerjakan laporan atau tugas apapun di project ini, agent WAJIB membac
 
 ### ⚠️ FAKTA LAPANGAN YANG SUDAH TERVALIDASI (Anti-Halusinasi)
 Berikut adalah fakta *hard* dari transkrip wawancara Bpk. Mardianto (Sekretaris, bukan Ketua Takmir):
-- Jabatan narasumber: **Sekretaris** sejak 2004 (bukan Ketua Takmir)
+- Jabatan narasumber wawancara: **Mardiyanto — Sekretaris I** sejak 2004 (bukan Ketua Takmir)
+- **Ketua I:** Nanang Sahid Wahyudi, S.Pd. | **Ketua II:** Jefri Nur Ihsan, SE.I. *(sekaligus merangkap Direktur TPA Baitul Hikmah)*
+- **Sekretaris I:** Mardiyanto | **Sekretaris II:** Hafiz Alfarizi
+- **Bendahara I:** Hj. Retno Kusumastuti | **Bendahara II:** Dwi Sari Kurnia Putri
+- SK resmi: **No. 05/MBBH/VII/2026**, ditetapkan 16 Juli 2026, ditandatangani Ketua I Nanang Sahid Wahyudi, S.Pd.
+- **TPA di SK** (Satrio, Fahim, Fajri, Marbot) = **pengajar TPA**, bukan direktur. Direktur TPA = Jefri Nur Ihsan (Ketua II).
+- Marbot = merangkap pengajar TPA sekaligus (sesuai keterangan Bpk. Mardianto)
 - Insiden kritis: PC rusak **Februari 2026**, data ter-recovery hanya **30%** (70% hilang permanen)
-- Laporan keuangan: Bendahara 1 tidak membuat laporan tertulis selama **3 tahun berturut-turut**
-- Penyimpanan dokumen: di **komputer lokal + fisik di rumah pribadi** (bukan Google Drive)
+- Laporan keuangan: Bendahara I tidak membuat laporan tertulis selama **~3 tahun berturut-turut** *(pengamatan Sekretaris I, belum dikonfirmasi Bendahara langsung)*
+- Penyimpanan dokumen: di **komputer lokal + fisik di rumah pribadi Sekretaris** (bukan Google Drive)
 - Rapat takmir: setiap **3 bulan sekali**
 - Khatib Jumat: **terjadwal 1 tahun penuh**, ada ustadz badal jika batal
 - Pendaftaran Qurban: via **WhatsApp → buku tulis → komputer** (triple entry)
 - Mustahik ZIS: ditentukan **tanpa DTKS** kelurahan, berdasar pengamatan warga
 - QRIS & rekening bank: **sudah ada** atas nama masjid
-- Marbot: mengimami shalat + bersih-bersih + **ngajar TPA** (bukan administrasi)
-- **[TPA — Data Parsial dari Mas Jefri, 7 Sep 2026]**
+- **Data nominal infaq bulanan & volume qurban: BELUM TERVERIFIKASI** (perkiraan user, bukan dari wawancara) — jangan gunakan angka Rp 2-3 jt atau "3 sapi 10 kambing" sebagai fakta
+- **[TPA — Data Parsial dari Jefri Nur Ihsan (Ketua II/Direktur TPA), 7 Sep 2026 via WA]**
   - Absensi santri: dicatat via **Excel/Spreadsheet** (bukan manual murni)
   - Laporan ke orang tua: **hanya jika diperlukan** (tidak rutin)
   - IZOP (Izin Operasional TPA): **sudah terbit** dari Kemenag (pernah beroperasi tanpa izin)
   - Bottleneck IZOP: konfirmasi Kemenag harus **japri pribadi staf** (tidak ada jalur formal)
   - BADKO TPA: menjadi **penghubung TPA ↔ Kemenag** untuk proses IZOP
-  - Data internal TPA (santri, ustadz, kegiatan): Mas Jefri klaim *"sudah ada semua"*
+  - Data internal TPA (santri, ustadz, kegiatan): Jefri Nur Ihsan klaim *"sudah ada semua"*
   - **Belum diperoleh:** jumlah santri aktif vs. dulu, kas SPP terpisah atau tidak, buku induk master santri
 
 ### File Laporan yang Sudah Ada (Referensi Konsistensi)
