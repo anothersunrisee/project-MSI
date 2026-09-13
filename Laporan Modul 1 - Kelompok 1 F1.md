@@ -63,10 +63,10 @@ Mengacu pada kerangka MSI, sistem informasi yang dirancang harus memenuhi lima u
 
 ```mermaid
 flowchart LR
-    A["📥 INPUT\n───────────\nInfaq Jumat & donasi (Rp 2–3 jt/bln)\nPendaftar qurban (3 sapi, 10 kambing)\nPresensi santri TPA (< 30 anak)\nJadwal 15 khatib & agenda akad KUA"]
+    A["📥 INPUT\n───────────\nInfaq Jumat & donasi rutin (nominal belum diverifikasi)\nPendaftar qurban musiman (jamaah warga 3 RW)\nPresensi santri TPA (< 30 anak)\nJadwal 15 khatib & agenda akad KUA"]
     B["⚙️ PROSES\n───────────\nPembukuan kas multi-user terpusat\nDistribusi kupon qurban per KK/NIK\nTracking berkala jilid santri TPA\nPenjadwalan terpadu & auto-konfirmasi"]
     C["📤 OUTPUT\n───────────\nLaporan kas sinkron tanpa selisih\nLaporan berkala ke BADKO TPA\nKalender publik jadwal khatib/ruang\nRekapitulasi distribusi daging qurban"]
-    D["👥 MANPOWER\n───────────\nBendahara & Sekretaris: kas terpadu\n3 Marbot & 1 Ustadz: data TPA\n17 REMAS: operator musiman qurban/zakat\nKoordinator Ibadah: jadwal 15 khatib"]
+    D["👥 MANPOWER\n───────────\nBendahara & Sekretaris: kas terpadu\n3 Marbot & 1 Ustadz: data TPA\n17 REMAS: operator musiman & pemuda\nKoordinator Ibadah: jadwal 15 khatib"]
     E["💻 TEKNOLOGI\n───────────\nWiFi Pemkot Yogyakarta & CCTV\nAplikasi SIM web/mobile ramah marbot\nBasis data terpusat (single source)\nNotifikasi WhatsApp pengingat jadwal"]
 
     A --> B --> C
@@ -83,10 +83,10 @@ Sistem informasi manajemen yang baik harus mampu mendukung pengambilan keputusan
 ```mermaid
 flowchart LR
     subgraph S["🎯 STRATEGIS — Ketua Takmir & Dewan Penasihat"]
-        S1["Evaluasi pemanfaatan kas infaq bulanan\nKebijakan kuota & beasiswa santri TPA\nPerluasan kemitraan UPZ & agenda KUA"]
+        S1["Evaluasi pemanfaatan kas donasi & infaq\nKebijakan kuota & beasiswa santri TPA\nPerluasan kemitraan UPZ & agenda KUA"]
     end
     subgraph M["📋 MANAJERIAL — Bendahara · Sekretaris · Koordinator TPA"]
-        M1["Rekonsiliasi saldo kas bulanan (Rp 2–3 jt)\nRekapitulasi berkala ke BADKO TPA\nPenjadwalan 15 khatib & ustadz cadangan\nPerencanaan kupon qurban (3 sapi, 10 kambing)"]
+        M1["Rekonsiliasi saldo kas masuk & keluar bulanan\nRekapitulasi berkala ke BADKO TPA\nPenjadwalan 15 khatib & ustadz cadangan\nPerencanaan kupon & pembagian daging qurban"]
     end
     subgraph O["⚙️ OPERASIONAL — 3 Marbot · 1 Ustadz · REMAS · Amil"]
         O1["Pencatatan infaq kotak Jumat\nPresensi & progres jilid santri harian\nKonfirmasi kehadiran khatib H-3 via WA\nEntri pendaftar qurban & mustahik di lapangan"]
@@ -110,7 +110,7 @@ flowchart LR
 | 4 | Kebutuhan Informasi Stakeholder | Setiap pihak memiliki kebutuhan spesifik: jamaah butuh kepastian jadwal 15 khatib tanpa bentrok mendadak, BADKO TPA butuh laporan capaian santri, warga 3 RW butuh keadilan kupon qurban per KK, dan BAZNAS butuh kepatuhan UPZ |
 | 5 | Nilai Informasi | Informasi jadwal khatib yang akurat mencegah kekosongan mimbar Jumat atau pengalihan darurat shalat tarawih ke pembacaan hadits marbot; data mustahik yang valid menjaga kepercayaan donatur |
 | 6 | Integrasi Proses Bisnis | Menghubungkan modul internal dengan agenda eksternal: pemakaian aula untuk akad nikah KUA (minimal 1x/bln), pelaporan santri ke BADKO TPA, dan sinkronisasi data warga miskin RW Kelurahan Klitren |
-| 7 | Adopsi & Perilaku Organisasi | Memperhitungkan temuan lapangan bahwa 17 anggota REMAS hanya aktif musiman (Idul Fitri dan Idul Adha), sehingga sistem harian dirancang sangat ramah bagi 3–4 marbot dan pengurus senior |
+| 7 | Adopsi & Perilaku Organisasi | Memperhitungkan kendala sosio-teknis riil: 17 anggota REMAS dan kader muda mengalami disorientasi regenerasi karena ketiadaan SOP tertulis resmi (arus kerja mengandalkan tradisi lisan konfirmasi A, B, C, D) dan fenomena *sleeping committee* pada nama-nama SK. Di sisi lain, para sesepuh terbiasa bekerja manual/komputasi dasar. Sistem dirancang dengan pendekatan *Dual-Tier Operating Model* (antarmuka sederhana bagi pengurus sepuh, modul operasional digital dikelola kader muda REMAS). |
 
 ---
 

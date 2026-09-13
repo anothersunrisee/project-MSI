@@ -77,7 +77,7 @@ quadrantChart
 | Muzaki & Shahibul Qurban | Rendah/Sedang | Tinggi | Keep Informed | Publikasi laporan transparansi kas bulanan via papan pengumuman/WA broadcast, serta bukti penerimaan hewan qurban |
 | Wali Santri & Jamaah 3 RW | Rendah | Tinggi | Keep Informed | Notifikasi kepastian jadwal 15 khatib Jumat/tarawih via grup WA, serta kartu laporan perkembangan santri TPA per semester |
 | BADKO TPA Kemantren Gondokusuman | Sedang | Rendah | Monitor | Pengiriman rekapitulasi data santri dan progres kurikulum TPA satu kali setiap semester |
-| RISMA / Remaja Masjid (Hafiz Wahyu Sukmawan dkk.) | Rendah/Sedang | Sedang | Keep Informed | Pembekalan teknis operasional sistem sebelum hari raya besar (Idul Adha & Idul Fitri) — aktif musiman |
+| RISMA / Remaja Masjid (Hafiz Wahyu Sukmawan dkk.) | Rendah/Sedang | Sedang | Keep Informed | Kaderisasi & pelatihan operasional digital berkala; penyusunan SOP tertulis untuk mengeliminasi friksi alur konfirmasi bertingkat ("tanya A, konfirmasi B, cek C dan D") dan kebiasaan daur-ulang berkas lokal; pemberdayaan REMAS sebagai operator SIM dan media publikasi dakwah |
 | Vendor QRIS & Jaringan Internet | Rendah | Rendah | Monitor | Pemantauan berkala stabilitas koneksi WiFi Pemkot dan sistem CCTV yang telah terpasang di masjid |
 
 ---
@@ -93,9 +93,9 @@ flowchart TD
         subgraph L2["👥 Stakeholder Langsung"]
             direction TB
             subgraph L1["🕌 Inti — SIM-BaitulHikmah"]
-                CORE["Basis Data NIK/KK Jamaah (3 RW)\nBuku Kas Digital (Infaq Rp 2–3 jt/bln)\nData Santri TPA (< 30 anak) & Kurikulum\nModul Kepanitiaan Qurban (3 Sapi, 10 Kambing)\nKalender Penjadwalan 15 Khatib & Ruang KUA"]
+                CORE["Basis Data NIK/KK Jamaah (3 RW)\nBuku Kas Digital (Penerimaan & Pengeluaran)\nData Santri TPA (< 30 anak) & Kurikulum\nModul Kepanitiaan Qurban Musiman (Jamaah 3 RW)\nKalender Penjadwalan 15 Khatib & Ruang KUA"]
             end
-            ST_IN["Internal Masjid\nKetua Takmir · Bendahara · Sekretaris\n3–4 Marbot (Pengajar TPA) · 1 Ustadz\n17 Pemuda REMAS (Operator Musiman)"]
+            ST_IN["Internal Masjid\nKetua Takmir · Bendahara · Sekretaris\n3–4 Marbot (Pengajar TPA) · 1 Ustadz\n17 Pemuda REMAS (Operator Digital)"]
             ST_EX["Penerima Manfaat Lapangan\nJamaah (±400 orang) · Wali Santri\nMuzaki · Shahibul Qurban (Warga 3 RW)"]
         end
         EXT1["BAZNAS Kota Yogyakarta\nKepatuhan UPZ & Standar SIMBA"]
@@ -139,10 +139,10 @@ Hasil pemetaan stakeholder pada pertemuan ini perlu dikaitkan dengan tiga level 
 ```mermaid
 flowchart LR
     subgraph S["🎯 STRATEGIS — Ketua Takmir & Dewan"]
-        S1["Evaluasi pemanfaatan kas infaq bulanan\nKebijakan kuota & beasiswa santri TPA\nPerluasan kemitraan UPZ & program qurban"]
+        S1["Evaluasi pemanfaatan kas infaq & donasi\nKebijakan kuota & beasiswa santri TPA\nPerluasan kemitraan UPZ & program qurban"]
     end
     subgraph M["📋 MANAJERIAL — Bendahara · Sekretaris · Koordinator TPA"]
-        M1["Rekonsiliasi saldo kas bulanan (Rp 2–3 jt)\nRekapitulasi berkala ke BADKO TPA\nPenjadwalan 15 khatib & ustadz cadangan\nPerencanaan kupon qurban (3 sapi, 10 kambing)"]
+        M1["Rekonsiliasi saldo kas masuk & keluar bulanan\nRekapitulasi berkala ke BADKO TPA\nPenjadwalan 15 khatib & ustadz cadangan\nPerencanaan kupon & pembagian daging qurban"]
     end
     subgraph O["⚙️ OPERASIONAL — 3 Marbot · 1 Ustadz · REMAS · Amil"]
         O1["Pencatatan infaq kotak Jumat\nPresensi & progres jilid santri harian\nKonfirmasi kehadiran khatib H-3 via WA\nEntri pendaftar qurban & mustahik di lapangan"]
@@ -162,7 +162,7 @@ flowchart LR
 |---|---|
 | Regulasi dan Kepatuhan | UU No. 23 Tahun 2011 tentang Pengelolaan Zakat mewajibkan setiap Unit Pengumpul Zakat (UPZ) memiliki legalitas dan menyampaikan laporan berkala yang transparan kepada BAZNAS. Sebagai masjid berstatus tipologi Masjid Besar tingkat Kemantren Gondokusuman yang telah memiliki ID SIMAS resmi Kemenag RI (`01.4.34.71.03.000032`) serta berdiri di atas tanah Barang Milik Negara (BMN), masjid memikul kewajiban akuntabilitas tata kelola yang tinggi. Selain itu, TK Baitul Hikmah yang terafiliasi wajib memenuhi standar pelaporan PAUD dari Dinas Pendidikan, dan TPA wajib sinkron dengan standar pelaporan santri ke BADKO TPA. |
 | Benchmark/Kompetisi | **Masjid Nurul Ashri Deresan** (Yogyakarta) menjadi acuan yang relevan karena meski bertipologi lebih kecil (Masjid Jami' lingkungan) dibandingkan Baitul Hikmah (Masjid Besar kecamatan), digitalisasi tata kelola informasinya jauh lebih matang: memiliki website aktif (Next.js) dengan 13 campaign donasi real-time, 2.450+ jamaah aktif, dan program terstruktur (Qurban, Education, Peduli, Kebencanaan). Paradoks ini — masjid lebih kecil namun lebih transparan — menjadi cermin bahwa kematangan tata kelola informasi tidak ditentukan oleh ukuran tipologi, melainkan oleh kesungguhan pengelolaan. Data desk research diperoleh dari `masjidnurulashri.com` (diakses September 2026); wawancara lapangan dijadwalkan untuk mendapatkan data mendalam. |
-| Kapasitas Internal | Berdasarkan **SK No. 05/MBBH/VII/2026**, struktur pengurus takmir periode 2026–2030 mencakup: Ketua I (Nanang Sahid Wahyudi, S.Pd.) & Ketua II, Sekretaris I & II, Bendahara I & II, **Sie Humas-Informasi-Dokumentasi** (4 anggota), **Sie Sosial & ZISWAF** (7 anggota), Sie Sarana-Prasarana (6 anggota), Sie Pendidikan-Ibadah-Dakwah, TPA (Satrio, Fahim, Fajri, Marbot), TK, RISMA, Sie Keamanan, Pembantu Umum (14 orang), dan Konsumsi. Dari sisi fasilitas: WiFi Pemkot Yogyakarta, CCTV, dan **QRIS + rekening bank atas nama masjid sudah aktif**. Temuan lapangan: RISMA hanya aktif musiman (Idul Fitri/Adha); rutinitas harian bertumpu pada marbot dan sekretaris. TPA sudah menggunakan **Excel lokal** untuk absensi (data Mas Jefri), IZOP sudah terbit dari Kemenag. *Catatan: data nominal infaq dan volume qurban belum terverifikasi dari Bendahara.* |
+| Kapasitas Internal | Berdasarkan **SK No. 05/MBBH/VII/2026**, struktur pengurus takmir periode 2026–2030 mencakup: Ketua I (Nanang Sahid Wahyudi, S.Pd.) & Ketua II (Jefri Nur Ihsan, SE.I.), Sekretaris I & II, Bendahara I & II, **Sie Humas-Informasi-Dokumentasi** (4 anggota), **Sie Sosial & ZISWAF** (7 anggota), Sie Sarana-Prasarana (6 anggota), Sie Pendidikan-Ibadah-Dakwah, TPA (Satrio, Fahim, Fajri, Marbot), TK, RISMA, Sie Keamanan, Pembantu Umum (14 orang), dan Konsumsi. Dari sisi fasilitas: WiFi Pemkot Yogyakarta, CCTV, dan **QRIS + rekening bank atas nama masjid sudah aktif**. Temuan empiris lapangan: banyak nama tercatat di SK kepengurusan namun pasif di lapangan (*sleeping committee*), sehingga beban operasional teknis terkonsentrasi pada figur Sekretaris I (*key-person dependency*). Regenerasi pemuda terhambat oleh ketiadaan SOP tertulis (alur konfirmasi bertingkat tanya A, B, C, D) dan materi rapat kepanitiaan yang mengandalkan dokumen lama di harddisk lokal (*hard drive legacy*). TPA sudah menggunakan **Excel lokal** untuk absensi (data Mas Jefri), IZOP sudah terbit dari Kemenag. *Catatan: data nominal infaq dan volume qurban belum terverifikasi dari Bendahara.* |
 | Tren dan Tekanan Eksternal | Jamaah generasi muda dan muzaki milenial semakin terbiasa dengan transaksi non-tunai. Infrastruktur QRIS dan rekening bank atas nama masjid **sudah tersedia** — yang dibutuhkan bukan adopsi awal, melainkan **integrasi pelaporan** agar setiap transaksi digital dapat terhubung ke sistem pembukuan dan dilaporkan secara transparan kepada donatur. Tuntutan transparansi dari donatur semakin meningkat — muzaki tidak hanya ingin berdonasi, tetapi juga ingin tahu secara berkala ke mana dana disalurkan. Tekanan serupa datang dari wali santri TK/TPA yang menginginkan informasi perkembangan anak dan transparansi iuran secara berkala. |
 
 ---
