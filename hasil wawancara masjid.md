@@ -413,3 +413,35 @@ Dari pencocokan data atas-ke-bawah (*top-down regulatory matching*), ditemukan 3
 | Apakah ada buku induk/master rekapitulasi santri terpusat di masjid? | Single source of truth vs. data tersebar di kartu santri |
 | Apakah ada laporan semesteran santri ke BADKO TPA? | Kepatuhan terhadap standar pembinaan TPA Kemenag |
 | Siapa yang mengelola absensi Excel — Mas Jefri atau marbot? | Dependensi personal vs. prosedur terdistribusi |
+
+---
+
+# BAGIAN VII: CATATAN OBSERVASI PARTISIPATIF INTERNAL
+## Perspektif Remaja Masjid (REMAS) & Panitia Hari Besar (Ramadhan & Idul Adha)
+
+> **Metode Pengumpulan:** Observasi Partisipatif Internal (*Participant Observation*) oleh Fajar Ahnaf Mahardika (anggota tim peneliti sekaligus kader Remaja Masjid dan panitia aktif kegiatan Ramadhan & Idul Adha di Masjid Besar Baitul Hikmah).  
+> **Tujuan:** Melengkapi wawancara formal pengurus dengan realitas operasional tingkat akar rumput (*grassroots operational reality*) dan dinamika regenerasi organisasi.
+
+---
+
+### A. Temuan Empiris Partisipatif
+
+| No | Gejala / Praktik Nyata di Lapangan | Analisis Mekanisme Masalah | Implikasi Manajemen Sistem Informasi (MSI) |
+|:---:|:---|:---|:---|
+| **1** | **Ketiadaan SOP Resmi & Rantai Konfirmasi Bertingkat yang Membingungkan** | Ketika pengurus baru atau pemuda yang hendak regenerasi masuk ke kepanitiaan, tidak ada satu pun dokumen Standard Operating Procedure (SOP) tertulis mengenai alur kerja. Pengurus baru harus **tanya ke figur A, lalu diarahkan tanya ke figur B, kemudian harus konfirmasi lagi ke figur C dan D**. | • **Informasi Terfragmentasi (*Information Fragmentation*):** Pengetahuan operasional tersimpan secara informal di kepala masing-masing individu (*tacit knowledge*), memicu friksi komunikasi dan kelelahan mental bagi kader baru.<br>• Ketiadaan *single source of truth* untuk panduan kerja operasional. |
+| **2** | **Ketergantungan Dokumen Lokal & Tradisi Lisan (*Hard Drive Legacy*)** | Dalam setiap rapat koordinasi (khususnya Panitia Ramadhan dan Idul Adha), materi rapat dan format kepanitiaan selalu mengambil **file lama dari folder fisik atau harddisk lokal komputer**. Eksekusi operasional berjalan berdasarkan cara turun-temurun dengan pembaruan yang sangat minim (hanya menyesuaikan tanggal dan nama). | • **Ketiadaan Repositori Pembelajaran (*Lessons Learned Repository*):** Tidak ada siklus evaluasi pasca-kegiatan yang terdokumentasi; kesalahan tahun sebelumnya berpotensi terulang.<br>• Sistem bergantung pada keberadaan perangkat fisik lokal yang rentan rusak/hilang tanpa repositori berbasis cloud. |
+| **3** | **Fenomena *"Sleeping Committee"* & Beban Bertumpu pada Figur Tunggal** | Banyak warga yang namanya tercatat secara resmi di lembar SK kepanitiaan masjid, namun pada hari pelaksanaan tidak bekerja atau pasif. Akibatnya, beban kerja riil kembali menumpuk pada 1–2 figur sepuh tanpa ada sistem backup atau pendelegasian terstruktur. | • **Ketiadaan *Role Clarity* & Manajemen Tugas:** Tidak adanya matriks tanggung jawab yang jelas (misal: RACI) dan monitoring tugas membuat kepanitiaan hanya bersifat formalitas sosial (*social politeness*), memperparah *key-person dependency*. |
+| **4** | **Stagnasi Akuntabilitas Keuangan Bendahara & Defisit Transparansi** | Pembukuan kas oleh bendahara selama ~3 tahun terakhir dilakukan secara fisik/buku tulis tanpa publikasi berkala kepada jamaah. Pengurus sepuh merasa cukup nyaman dengan pembukuan manual atau komputasi dasar (Word/Excel personal). | • **Asimetri Informasi Publik (*Information Asymmetry*):** Menurunkan tingkat kepercayaan dan partisipasi generasi muda untuk menyalurkan infaq/zakat secara reguler melalui masjid. |
+| **5** | **Kesenjangan Inovasi & Publikasi vs Benchmark Masjid Pemuda (Nurul Ashri)** | Dominasi cara kerja manual dan ketiadaan ruang strategis bagi pemuda membuat program dakwah, syiar acara, dan media publikasi masjid berjalan statis. Hal ini kontras dengan benchmark seperti Masjid Nurul Ashri Deresan yang memberdayakan anak muda untuk publikasi digital masif, campaign crowdfunding, dan event kreatif sehingga mampu menghimpun ribuan jamaah dan donasi besar. | • **Kebutuhan *Dual-Tier Operating Model*:** Sistem informasi masa depan harus mampu menjembatani dua generasi: memfasilitasi pengurus sepuh pada fungsi pengawasan/persetujuan kebijakan, sekaligus memberdayakan pemuda REMAS sebagai motor operasional digital dan publikasi. |
+
+---
+
+### B. Hubungan Temuan Observasi dengan Teori MSI
+
+1. **Nonaka & Takeuchi (1995) — *Knowledge Conversion Failure*:**
+   Masjid Baitul Hikmah mengalami kegagalan proses *Externalization* (mengubah pengetahuan tak tertulis para sesepuh menjadi pedoman tertulis SOP) dan *Combination* (mengintegrasikan dokumen-dokumen terpisah di harddisk menjadi basis pengetahuan organisasi terpusat). Akibatnya, transfer pengetahuan antar-generasi tidak terjadi.
+2. **Davis (1989) — *Technology Acceptance Model (TAM)*:**
+   Kenyamanan pengurus sepuh dengan alat komputasi dasar (Word dan Excel personal) menciptakan resistensi pasif terhadap perubahan (*status quo bias*). Desain sistem informasi yang baru wajib memprioritaskan antarmuka yang sangat mudah dipahami (*perceived ease of use*) agar tidak ditolak oleh pengurus senior.
+3. **Goodhue & Thompson (1995) — *Task-Technology Fit (TTF)*:**
+   Digitalisasi tidak boleh memaksakan sistem yang terlalu rumit bagi sesepuh. Perlu pemisahan fungsi: logbook fisik tetap disediakan untuk verifikasi lapangan marbot/sesepuh, sementara input data dan sinkronisasi ke repositori cloud dieksekusi oleh kader pemuda REMAS.
+
