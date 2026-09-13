@@ -20,7 +20,7 @@ Sebelum mengerjakan laporan atau tugas apapun di project ini, agent WAJIB membac
 | `hasil wawancara masjid.md` | **Sumber Data Primer Utama.** Transkrip verbatim + Tabel Temuan Empiris (8 klaster) + Spektrum Masalah Mermaid + Hierarki Regulasi Top-Down | ✅ Aktif |
 | `hasil wawancara masjid pembanding dan analisis komparasi.md` | Transkrip harfiah wawancara Masjid Mujur Al-Amin (pembanding empiris lapangan) + analisis komparasi 3 level | ✅ Aktif |
 | `validasi akademik dan rasionalisasi msi.md` | Justifikasi akademik MSI vs aplikasi, Task-Technology Fit, Internal Control, TAM, IT Resistance | ✅ Aktif |
-| `komparasi benchmark masjid jogokariyan dan tata kelola eksternal.md` | Analisis komparatif ekosistem Jogokariyan vs Baitul Hikmah, maturity model, koreksi TPA BADKO | ✅ Aktif |
+| `komparasi benchmark masjid nurul ashri deresan dan tata kelola eksternal.md` | Analisis komparatif desk research Nurul Ashri (website publik) vs Baitul Hikmah — **Perlu diperbarui setelah wawancara Selasa** | 🟡 Aktif (partial) |
 | `panduan wawancara lapangan msi.md` | Instrumen wawancara lapangan universal (makro-meso-mikro, TPA, penurunan jamaah/santri) | ✅ Aktif |
 | `instrumen wawancara direktur tpa baitul hikmah.md` | Instrumen wawancara khusus Mas Jefri (Direktur TPA) — **DATA TPA BELUM DIPEROLEH** | 🔴 Menunggu |
 | `instrumen wawancara masjid nurul ashri deresan.md` | Instrumen untuk benchmark Masjid Nurul Ashri Deresan — **Dijadwalkan Selasa** | 🟡 Menunggu |
@@ -71,8 +71,9 @@ Berikut adalah fakta *hard* dari transkrip wawancara Bpk. Mardianto (Sekretaris,
 
 ### Objek Studi & Spektrum Komparasi Tiga Tingkat (Tri-Level Spectrum)
 - **1. Target Studi Kasus Utama**: **Masjid Besar Baitul Hikmah** (Klitren, Gondokusuman, Yogyakarta) — Masjid Besar tingkat kecamatan/kelurahan, semi-urban, non-profit murni, isu data silo & penurunan jamaah/santri.
-- **2. Pembanding Empiris Lapangan (Empirical Village Baseline)**: **Masjid Mujur Al-Amin** (Karangnongko) — Masjid dusun/lingkungan berbasis partisipasi swadaya RT 1–5, percontohan tata kelola transparan swakelola (Papan Takjil Terbuka & Otonomi TPA).
-- **3. Benchmark Mapan Nasional**: **Masjid Jogokariyan Yogyakarta** — Level *Socio-Enterprise*, diversifikasi usaha (Wisma, Air Minum, KRJ), percontohan integrasi data *Peta Dakwah* & Saldo Kas Nol Rupiah.
+- **2. Pembanding Empiris Lapangan (Empirical Baseline)**: **Masjid Mujur Al-Amin** (Karangnongko) — Masjid dusun/lingkungan berbasis partisipasi swadaya RT 1–5, percontohan tata kelola transparan swakelola (Papan Takjil Terbuka & Otonomi TPA).
+- **3. Benchmark Mapan Terdekat**: **Masjid Nurul Ashri Deresan** (Yogyakarta) — Masjid Jami' lingkungan yang lebih kecil dari Baitul Hikmah secara tipologi, namun digitalisasi tata kelolanya jauh lebih matang: website Next.js aktif, 13 campaign donasi online real-time, 2.450+ jamaah aktif, program Qurban/Education/Peduli/Kebencanaan terstruktur. **Website: masjidnurulashri.com | IG: @masjidnurulashri**
+- *(Catatan historis: Masjid Jogokariyan Yogyakarta sebelumnya digunakan sebagai benchmark nasional level Socio-Enterprise. Diganti ke Nurul Ashri karena lebih relevan secara tipologi lokal dan jarak geografis — wawancara lapangan Selasa)*
 - **Unit Afiliasi Target**: TK Baitul Hikmah, TPA Baitul Hikmah, Kemitraan KUA Kecamatan.
 - **Fokus Dua Proses Bisnis Inti**:
   1. **Tata Kelola Pendataan Jamaah & Penyaluran ZIS** — verifikasi NIK + sinkronisasi DTKS Kelurahan.
@@ -379,11 +380,16 @@ Contoh:
   * *Dual custody* (hitung kas berdua dengan saksi & berita acara) saat membuka kotak infak Jumat.
   * Sinkronisasi data mustahik zakat dengan DTKS Kelurahan.
 
-### 3. Komparasi Benchmark: Masjid Baitul Hikmah vs Masjid Jogokariyan Yogyakarta
-* **Model Finansial:** Baitul Hikmah (*Charity-Based murni*, infaq Rp 2–3 jt/bln) vs Jogokariyan (*Socio-Enterprise*: Wisma Penginapan, Air Galon/Mineral, KRJ 250+ UMKM).
-* **Kebijakan Saldo Kas:** Kas pasif vs *Zero-Balance Policy* (Saldo Nol Rupiah) yang menuntut akurasi sistem peramalan kas (*cash forecasting*).
-* **Arsitektur Data Jamaah:** Tanpa data tertulis vs *Peta Dakwah Sensus Mikro* by-name by-address per KK.
-* **Maturity Model:** Masjid Baitul Hikmah wajib menstabilkan Level 1 (Fondasi Tata Kelola & Pengendalian Internal) sebelum melangkah ke Level 2 (Ekosistem Wirausaha Mandiri).
+### 3. Komparasi Benchmark: Masjid Baitul Hikmah vs Masjid Nurul Ashri Deresan
+* **Sumber Data Benchmark:** Desk research dari website `masjidnurulashri.com` + Instagram `@masjidnurulashri` (diakses 13 September 2026). **Wawancara lapangan dijadwalkan Selasa** untuk data mendalam.
+* **Tipologi:** Baitul Hikmah = Masjid Besar (tingkat kecamatan). Nurul Ashri = Masjid Jami' lingkungan. Paradoks: Nurul Ashri yang lebih *kecil* secara tipologi justru lebih *matang* secara digital.
+* **Statistik Nurul Ashri (dari website publik):** 2.450+ jamaah aktif, 48+ program berjalan, 1.250+ penerima manfaat, 25+ relawan, 13 campaign donasi aktif dengan progress bar real-time, total dana terkumpul ~Rp 10.178.000.
+* **Program Utama Nurul Ashri:** Nurul Ashri Qurban (online), Nurul Ashri Education (kelas Tahsin & Fiqih via lebihpaham.com), Nurul Ashri Peduli (sosial-kemanusiaan), Bazar Sayur Bakda Subuh (pemberdayaan petani-jamaah), respon kebencanaan (Flores, NTT, Kalimantan).
+* **Gap Utama Baitul Hikmah vs Nurul Ashri:**
+  * Transparansi: Nurul Ashri = real-time online; Baitul Hikmah = 3 tahun tanpa laporan tertulis
+  * Digital: Nurul Ashri = Next.js website aktif; Baitul Hikmah = tidak ada website
+  * Backup: Nurul Ashri = cloud; Baitul Hikmah = PC rusak → 70% data hilang
+* **Catatan Data Gap:** Data TPA, kas operasional harian, dan struktur takmir Nurul Ashri **belum diperoleh** dari website — perlu wawancara Selasa.
 
 ### 4. Investigasi Dinamika Penurunan Partisipasi (Decline Dynamics)
 * **Penurunan Jamaah Shalat:** Faktor demografi (lansia wafat, generasi muda merantau), jam kerja modern, serta dominasi lansia pensiunan.
