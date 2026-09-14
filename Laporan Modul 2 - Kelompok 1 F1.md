@@ -46,24 +46,24 @@ Berikut adalah hasil pemetaan seluruh stakeholder SIM-BaitulHikmah ke dalam Powe
 
 ```mermaid
 quadrantChart
-    title Power-Interest Grid — SIM-BaitulHikmah (Pertemuan 2)
-    x-axis "Interest Rendah" --> "Interest Tinggi"
-    y-axis "Power Rendah" --> "Power Tinggi"
+    title Power Interest Grid SIM BaitulHikmah
+    x-axis Low Interest --> High Interest
+    y-axis Low Power --> High Power
     quadrant-1 Manage Closely
     quadrant-2 Keep Satisfied
     quadrant-3 Monitor
     quadrant-4 Keep Informed
-    Ketua Takmir & Sekretaris: [0.86, 0.90]
-    Bendahara I & II: [0.82, 0.88]
-    Sie Sosial & ZISWAF (7 anggota): [0.75, 0.78]
+    Ketua Takmir dan Sekretaris: [0.86, 0.90]
+    Bendahara I dan II: [0.82, 0.88]
+    Sie Sosial dan ZISWAF: [0.75, 0.78]
     Kepala KUA Kemantren: [0.48, 0.82]
-    Kelurahan Klitren / DTKS: [0.42, 0.75]
+    Kelurahan Klitren DTKS: [0.42, 0.75]
     BAZNAS Kota Yogyakarta: [0.38, 0.72]
-    Muzaki & Shahibul Qurban: [0.82, 0.32]
-    Wali Santri & Jamaah 3 RW: [0.88, 0.20]
-    RISMA / Remaja Masjid: [0.70, 0.35]
+    Muzaki dan Shahibul Qurban: [0.82, 0.32]
+    Wali Santri dan Jamaah: [0.88, 0.20]
+    RISMA Remaja Masjid: [0.70, 0.35]
     BADKO TPA Gondokusuman: [0.28, 0.45]
-    Vendor QRIS & Jaringan Internet: [0.15, 0.15]
+    Vendor QRIS dan Jaringan: [0.15, 0.15]
 ```
 
 ---

@@ -86,9 +86,9 @@ Penyelidikan kausalitas terhadap insiden musnahnya data sekretariat dipetakan ke
 
 ```mermaid
 flowchart LR
-    subgraph P["👥 1. MANUSIA (PEOPLE)"]
-        P1["Dominasi pengurus sepuh nyaman sistem manual/Word-Excel"]
-        P2["Ketergantungan ekstrem pada figur Sekretaris I (rangkap 6 fungsi)"]
+    subgraph P["1. MANUSIA PEOPLE"]
+        P1["Dominasi pengurus sepuh nyaman sistem manual Word-Excel"]
+        P2["Ketergantungan ekstrem pada figur Sekretaris I merangkap 6 fungsi"]
         P3["Fenomena sleeping committee nama di SK pasif di lapangan"]
         P4["Kader 17 pemuda REMAS belum dilibatkan dalam tata kelola data"]
         P_CAT["Simpul Faktor Manusia"]
@@ -98,7 +98,7 @@ flowchart LR
         P4 --> P_CAT
     end
 
-    subgraph PR["🔄 2. PROSES (PROCESS)"]
+    subgraph PR["2. PROSES PROCESS"]
         PR1["Ketiadaan SOP resmi pencadangan data berkala"]
         PR2["Alur koordinasi ad-hoc tanpa panduan tertulis tanya A B C D"]
         PR3["Redundansi pencatatan triple-entry WA buku fisik PC"]
@@ -110,10 +110,10 @@ flowchart LR
         PR4 --> PR_CAT
     end
 
-    subgraph T["💻 3. TEKNOLOGI (TECHNOLOGY)"]
+    subgraph T["3. TEKNOLOGI TECHNOLOGY"]
         T1["Penyimpanan bertumpu pada 1 PC kantor single point of failure"]
         T2["Ketiadaan repositori cloud terpusat Google Workspace"]
-        T3["Pemanfaatan gawai terbatas pesan instan obrolan WA personal"]
+        T3["Pemanfaatan gawai terbatas pesan instan WA personal"]
         T4["Presensi TPA tersimpan di spreadsheet lokal PC pribadi Mas Jefri"]
         T_CAT["Simpul Faktor Teknologi"]
         T1 --> T_CAT
@@ -122,10 +122,10 @@ flowchart LR
         T4 --> T_CAT
     end
 
-    subgraph POL["📜 4. KEBIJAKAN (POLICY & GOVERNANCE)"]
+    subgraph POL["4. KEBIJAKAN POLICY DAN GOVERNANCE"]
         POL1["Nihil regulasi internal takmir tentang klasifikasi aset informasi"]
         POL2["Ketiadaan SOP audit internal dan pemisahan tugas keuangan"]
-        POL3["SK Takmir No. 05/MBBH/VII/2026 tidak mengatur supervisi audit kas"]
+        POL3["SK Takmir No 05-MBBH-VII-2026 tidak mengatur supervisi audit kas"]
         POL4["SK Takmir tidak merinci otoritas dan akuntabilitas data"]
         POL_CAT["Simpul Faktor Kebijakan"]
         POL1 --> POL_CAT
@@ -134,7 +134,7 @@ flowchart LR
         POL4 --> POL_CAT
     end
 
-    subgraph D["📊 5. DATA & INFORMASI (DATA)"]
+    subgraph D["5. DATA DAN INFORMASI"]
         D1["Data silo terisolasi di harddisk PC dan rumah pribadi"]
         D2["Daur ulang berkas lama turun-temurun hard drive legacy"]
         D3["Asimetri informasi kas fisik tidak dipublikasikan 3 tahun"]
@@ -146,7 +146,7 @@ flowchart LR
         D4 --> D_CAT
     end
 
-    subgraph E["🏛️ 6. LINGKUNGAN (ENVIRONMENT)"]
+    subgraph E["6. LINGKUNGAN ENVIRONMENT"]
         E1["Budaya ewuh pakewuh sungkan menuntut transparansi tertulis"]
         E2["Asumsi komunal selama fisik berjalan administrasi nomor dua"]
         E3["Jurang komunikasi lintas generasi sepuh vs kader muda"]
@@ -158,7 +158,7 @@ flowchart LR
         E4 --> E_CAT
     end
 
-    AKIBAT["💥 AKIBAT UTAMA:\nHilangnya 70% Data Administrasi &\nLayanan Masjid pada Insiden PC Rusak\nFeb 2026 Serta Terhambatnya Regenerasi"]
+    AKIBAT["AKIBAT UTAMA - Hilangnya 70% Data Administrasi dan Layanan Masjid pada Insiden PC Rusak Feb 2026 Serta Terhambatnya Regenerasi"]
 
     P_CAT --> AKIBAT
     PR_CAT --> AKIBAT
@@ -215,20 +215,20 @@ Mempertimbangkan keterbatasan waktu 1 semester, kapasitas pengurus sepuh, dan ke
 
 ```mermaid
 quadrantChart
-    title Matriks Prioritas Masalah dan Solusi (Dampak vs Upaya)
-    x-axis "Rendah Upaya" --> "Tinggi Upaya"
-    y-axis "Rendah Dampak" --> "Tinggi Dampak"
+    title Matriks Prioritas Masalah dan Solusi
+    x-axis Low Effort --> High Effort
+    y-axis Low Impact --> High Impact
     quadrant-1 Proyek Strategis
-    quadrant-2 Prioritas Utama Quick Wins
+    quadrant-2 Quick Wins Prioritas
     quadrant-3 Kerjakan Jika Sempat
     quadrant-4 Hindari atau Tunda
-    Protokol Backup Cloud & SOP Repositori: [0.28, 0.88]
-    Standardisasi Form Input & Papan Terbuka: [0.22, 0.78]
-    Pengembangan SIM-BaitulHikmah Terpadu: [0.76, 0.86]
-    Restrukturisasi Dual-Tier REMAS-Sepuh: [0.72, 0.74]
-    Digitalisasi Arsip Kertas Masa Retensi: [0.36, 0.30]
-    Template Pesan Broadcast WA Jamaah: [0.18, 0.36]
-    Pengadaan Server Fisik Mandiri On-Premise: [0.84, 0.18]
+    Protokol Backup Cloud dan SOP: [0.28, 0.88]
+    Standardisasi Form Input Tunggal: [0.22, 0.78]
+    Pengembangan SIM BaitulHikmah: [0.76, 0.86]
+    Restrukturisasi Dual Tier REMAS: [0.72, 0.74]
+    Digitalisasi Arsip Kertas Lama: [0.36, 0.30]
+    Template Broadcast WA Jamaah: [0.18, 0.36]
+    Server Fisik Mandiri On Premise: [0.84, 0.18]
 ```
 
 #### Rasionalisasi Penempatan Kuadran:
