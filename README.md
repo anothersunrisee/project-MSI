@@ -31,12 +31,9 @@ Proyek ini mengkaji tata kelola informasi organisasi keagamaan-sosial melalui pe
 | **Panduan & Standar** | `AGENTS.md` | Panduan utama standar kualitas penulisan laporan MSI, rubrik 7 bagian, filosofi Bu Ratna, dan konsistensi artefak. |
 | **Laporan Modul Resmi** | `Laporan Modul 1 - Kelompok 1 F1.md` | Laporan Pertemuan 1: Profil Organisasi, 3 Level Keputusan, 5 Unsur Sistem, Justifikasi Mengapa Masjid Butuh MSI. |
 | | `Laporan Modul 2 - Kelompok 1 F1.md` | Laporan Pertemuan 2: Pemetaan Stakeholder, Power-Interest Grid, Analisis Lingkungan Eksternal (BAZNAS, KUA, Kelurahan). |
-| **Riset & Komparasi** | `validasi akademik dan rasionalisasi msi.md` | Justifikasi akademik penolakan komputerisasi instan berbasis teori *Task-Technology Fit* (Goodhue & Thompson, 1995), *TAM* (Davis, 1989), dan *Internal Control* (Romney & Steinbart, 2018). |
-| | `komparasi benchmark masjid jogokariyan dan tata kelola eksternal.md` | Analisis komparasi ekosistem Baitul Hikmah vs Jogokariyan, maturity model, dan rujukan jurnal peer-reviewed terakreditasi. |
-| | `hasil wawancara masjid pembanding dan analisis komparasi.md` | Transkrip harfiah audio wawancara Masjid Mujur Al-Amin, evaluasi ketercapaian MSI, dan analisis komparatif. |
-| **Instrumen Lapangan** | `panduan wawancara ringkas 30 menit.md` | Instrumen wawancara cepat 30 menit dengan 6 pertanyaan payung terpadu untuk narasumber takmir. |
-| | `panduan wawancara lapangan msi.md` | Panduan instrumen wawancara komprehensif 8 bagian (dari ranah makro pemerintah hingga mikro jamaah). |
-| **Analisis & Pembelajaran**| `panduan presentasi dan pemahaman msi.md` | Penjelasan konsep inti MSI dengan bahasa sederhana / analogi jalan raya vs motor balap untuk presentasi. |
+| | `Laporan Modul 3 - Kelompok 1 F1.md` | Laporan Pertemuan 3: Analisis Masalah, Triangulasi 4 Sumber, Fishbone 6 Dimensi, 5-Why, Matriks Prioritas Solusi. |
+| **Presentasi & Evaluasi** | `naskah presentasi revisi modul 2 dan modul 3.md` | Naskah presentasi lisan 3 pembicara: pemaparan revisi Modul 2 disambung bedah Modul 3 + simulasi Q&A dosen. |
+| | `panduan presentasi dan pemahaman msi.md` | Penjelasan konsep inti MSI dengan bahasa sederhana / analogi jalan raya vs motor balap untuk presentasi. |
 | | `tata kelola informasi bottom-up.md` | Pemodelan alur tata kelola informasi dari level bawah (santri, jamaah) ke level atas (takmir, BADKO, BAZNAS). |
 | | `data draft.md` | Kumpulan data faktual operasional Masjid Besar Baitul Hikmah. |
 | | `notes kelas.md` | Rangkuman catatan kuliah & arahan Dr. Ratna Wardani, S.Si., M.T. |
