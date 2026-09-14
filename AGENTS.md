@@ -53,6 +53,13 @@ Berikut adalah fakta *hard* dari transkrip wawancara Bpk. Mardianto (Sekretaris,
   - BADKO TPA: menjadi **penghubung TPA ↔ Kemenag** untuk proses IZOP
   - Data internal TPA (santri, ustadz, kegiatan): Jefri Nur Ihsan klaim *"sudah ada semua"*
   - **Belum diperoleh:** jumlah santri aktif vs. dulu, kas SPP terpisah atau tidak, buku induk master santri
+- **[Data Tambahan dari Jefri Nur Ihsan, 14 Sep 2026 via WA — Hipotesis Motivasi Takmir]**
+  - Pertanyaan kelompok: apakah kurang regenerasi disebabkan ketiadaan upah formal?
+  - Respons Mas Jefri: *"Kalo dari penglihatanku bukan karna sistem atau tidak ada upah. Memang budaya di warga kita seperti itu, jarang/sedikit yg mau ambil peran. Karna di pengurusan rt rw juga seperti itu, saling lempar dll."*
+  - **Bisyarah pengurus takmir: Rp 150.000/bulan** dari kas infaq (dikonfirmasi). Marbot **tidak ada** bisyarah.
+  - **Interpretasi akademis (HIPOTESIS — belum divalidasi mendalam):** Bisyarah Rp150rb berfungsi sebagai *hygiene factor* (Herzberg, 1959) — mencegah ketidakpuasan tapi tidak cukup sebagai motivator aktif. Gejala "saling lempar" mengindikasikan erosi modal sosial komunal (Social Capital, Putnam 2000).
+  - **ANTI-HALUSINASI:** Jangan simpulkan bahwa takmir tidak bergaji total (ada bisyarah Rp150rb). Jangan klaim motivasi rendah disebabkan oleh upah semata — Mas Jefri eksplisit menyebut faktor budaya lebih dominan.
+
 
 ### File Laporan yang Sudah Ada (Referensi Konsistensi)
 | File | Keterangan |
