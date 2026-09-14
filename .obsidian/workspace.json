@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "c234b1cb08c3cfed",
+    "type": "split",
+    "children": [
+      {
+        "id": "d088ba0a323c0c59",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "899abbb1983816a5",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "36263a5e29bc5cf6",
+    "type": "split",
+    "children": [
+      {
+        "id": "01164b73186ca79f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "07bc27f9d62dac97",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "daee9c8b39e540bd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "76f222ac81f3d99c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d80a41a11578544e",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd24d479d907b653",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b0a49a3d2be885cb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "7ce02fc758c16345",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "2565a2d97a57a4e0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ae1d1fc6c96f1c33",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "2e7242d4eb26f40a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "899abbb1983816a5",
+  "lastOpenFiles": [
+    "_glosarium/Masjid Pembanding/Pembanding & Benchmark - Profil.md",
+    "_glosarium/GLOSARIUM MASTER.md",
+    "_glosarium/BADKO TPA/BADKO - Profil.md",
+    "_glosarium/Kelurahan Klitren/Kelurahan - Profil.md",
+    "_glosarium/BAZNAS Kota Yogyakarta/BAZNAS - Profil.md",
+    "_glosarium/KUA Kec. Gondokusuman/KUA - Profil.md",
+    "_glosarium/MBBH - Masjid Besar Baitul Hikmah/REMAS/REMAS - Profil.md",
+    "_glosarium/MBBH - Masjid Besar Baitul Hikmah/TPA Baitul Hikmah/TPA - Profil.md",
+    "_glosarium/MBBH - Masjid Besar Baitul Hikmah/MBBH - Profil.md",
+    "_glosarium/Masjid Pembanding",
+    "_glosarium/BADKO TPA",
+    "_glosarium/Kelurahan Klitren",
+    "_glosarium/BAZNAS Kota Yogyakarta",
+    "_glosarium/KUA Kec. Gondokusuman",
+    "_glosarium/MBBH - Masjid Besar Baitul Hikmah/TPA Baitul Hikmah",
+    "_glosarium/MBBH - Masjid Besar Baitul Hikmah/REMAS",
+    "_glosarium/MBBH - Masjid Besar Baitul Hikmah",
+    "_glosarium",
+    "02 - Data Lapangan/INDEX.md",
+    "04 - Referensi & Akademik/INDEX.md",
+    "00 - Dashboard/HOME.md"
+  ]
+}
