@@ -33,7 +33,7 @@ Kegiatan praktikum Pertemuan 3 diawali dengan membedah data empiris yang telah d
 3. **Data Parsial Unit Pendidikan TPA:** Formulir checklist dan konfirmasi daring bersama Bpk. Jefri Nur Ihsan, SE.I. (Ketua II Takmir merangkap Direktur TPA Baitul Hikmah) yang memverifikasi bahwa presensi santri dan ustadz masih tersimpan di lembar kerja Excel lokal pada komputer personal, serta jalur perizinan operasional (IZOP) Kemenag yang masih mengandalkan relasi pesan instan personal staf tanpa kanal institusional formal.
 4. **Studi Komparasi Lapangan & Benchmark Digital:** Analisis komparatif terhadap praktik transparansi terbuka berbasis swadaya di Masjid Mujur Al-Amin (Karangnongko) dengan sistem *dual custody* kas kotak infak Jumat dan Papan Takjil Terbuka, serta benchmark kematangan digitalisasi publikasi dan 13 *campaign* donasi daring terintegrasi di Masjid Nurul Ashri Deresan (*masjidnurulashri.com*).
 
-Melalui proses triangulasi multi-sumber tersebut, kelompok mengidentifikasi 5 (lima) persoalan mendasar dalam ekosistem pengelolaan informasi organisasi.
+Melalui proses triangulasi multi-sumber tersebut, kelompok mengidentifikasi 4 masalah terverifikasi dan 1 hipotesis kerja dalam ekosistem pengelolaan informasi organisasi.
 
 ### 3.2 Penelusuran Sebab-Akibat Menggunakan *Fishbone Diagram* (Ishikawa, 1976)
 Setelah memetakan daftar masalah, kelompok memilih satu insiden paling kritis yang menjadi ancaman kelangsungan organisasi (*business continuity threat*), yaitu: **Hilangnya 70% data arsip dan administrasi masjid akibat kerusakan PC sekretariat pada Februari 2026**. 
@@ -290,14 +290,16 @@ Mengidentifikasi gejala permukaan (seperti PC rusak, kepanitiaan bingung, atau k
 
 ### 6.2 Integrasi dengan Kerangka 7 Aspek Pengelolaan Sistem Informasi
 Temuan dan analisis pada Modul 3 ini terhubung erat dengan kerangka 7 Aspek MSI yang diajarkan dalam perkuliahan:
-1. **Aspek 1 (Keselarasan Strategis):** Tata kelola informasi harus selaras dengan misi masjid sebagai institusi sosial-keagamaan yang dipercaya umat. Ketidakteraturan data dan ketiadaan laporan tertulis berisiko mengikis *trust* jamaah dan muzaki.
-2. **Aspek 2 (Tata Kelola dan Kualitas Informasi — Fokus Utama Modul 3):** Kerapuhan informasi di Baitul Hikmah bukan karena ketiadaan teknologi, melainkan ketiadaan regulasi internal: siapa pemilik data (*data owner*), siapa yang berwenang memperbarui, kapan jadwal wajib pencadangan, dan di mana data disimpan. Ketiadaan *single source of truth* memicu data tercecer di rumah pribadi dan folder lokal tanpa perlindungan.
-3. **Aspek 3 (Dukungan Pengambilan Keputusan):** Informasi yang tidak akurat melumpuhkan tiga level keputusan organisasi:
+1. **Aspek 1 — Keselarasan Strategis:** Tata kelola informasi harus selaras dengan misi masjid sebagai institusi sosial-keagamaan yang dipercaya umat. Ketidakteraturan data dan ketiadaan laporan tertulis berisiko mengikis *trust* jamaah dan muzaki, yang secara langsung melemahkan keberlangsungan misi peribadatan dan sosial masjid.
+2. **Aspek 2 — Tata Kelola dan Kualitas Informasi *(Fokus Utama Modul 3):*** Kerapuhan informasi di Baitul Hikmah bukan karena ketiadaan teknologi, melainkan ketiadaan regulasi internal: siapa pemilik data (*data owner*), siapa yang berwenang memperbarui, kapan jadwal wajib pencadangan, dan di mana data disimpan. Ketiadaan *single source of truth* memicu data tercecer di rumah pribadi dan folder lokal tanpa perlindungan.
+3. **Aspek 3 — Dukungan Pengambilan Keputusan:** Informasi yang tidak akurat melumpuhkan tiga level keputusan organisasi:
    - *Level Operasional:* Marbot dan panitia kesulitan mencatat pendaftaran qurban karena alur *triple-entry* yang lambat dan rawan salah rekap.
    - *Level Manajerial:* Sekretaris dan ketua takmir tidak dapat mengevaluasi tren infaq dan pertumbuhan santri TPA karena data tersimpan di berkas fisik pribadi yang tidak teragregasi.
    - *Level Strategis:* Rapat takmir 3 bulanan tidak dapat merumuskan program pemberdayaan jamaah jangka panjang karena ketiadaan *evidence-based decision making* yang valid.
-4. **Aspek 6 (Integrasi Proses Bisnis):** Kegagalan integrasi antar-unit (Masjid, TPA, Panitia PHBI, KUA, Kelurahan DTKS, dan BAZNAS) menciptakan fenomena *Silo Informasi*. Sesuai arahan dosen, ini adalah bentuk *Governance Failure* yang menghambat peran masjid di tengah ekosistem masyarakat.
-5. **Aspek 7 (Adopsi dan Perilaku Organisasi):** Menjawab tantangan jurang generasi, kelompok merumuskan solusi sosio-teknis berupa **Dual-Tier Operating Model (Model Operasional Generasi Ganda)**:
+4. **Aspek 4 — Kebutuhan Informasi Stakeholder:** Setiap pemangku kepentingan memiliki kebutuhan informasi yang berbeda namun saling terkait. Muzaki dan shahibul qurban membutuhkan bukti transparansi penyaluran dana. Wali santri membutuhkan laporan perkembangan anak berkala. BAZNAS membutuhkan laporan penghimpunan ZIS terstandar. KUA membutuhkan rekapitulasi kegiatan PHBI. Saat ini, **tidak ada satu pun kebutuhan informasi tersebut yang terpenuhi secara sistematis** karena tidak ada sistem pengolahan data yang terintegrasi dan terdistribusi sesuai kebutuhan masing-masing stakeholder.
+5. **Aspek 5 — Nilai Informasi:** Insiden hilangnya 70% data pada Februari 2026 membuktikan secara konkret bahwa **informasi memiliki nilai ekonomis dan sosial yang nyata** — bukan sekadar tumpukan berkas. Riwayat kepanitiaan yang hilang berarti panitia berikutnya harus memulai dari nol tanpa *lessons learned*. Data mustahik yang hilang berarti proses seleksi zakat dan qurban berulang menjadi tidak konsisten. Nilai informasi yang tidak diakui inilah yang memungkinkan budaya *"data sebagai urusan klerikal pribadi"* terus bertahan.
+6. **Aspek 6 — Integrasi Proses Bisnis:** Kegagalan integrasi antar-unit (Masjid, TPA, Panitia PHBI, KUA, Kelurahan DTKS, dan BAZNAS) menciptakan fenomena *Silo Informasi*. Sesuai arahan dosen, ini adalah bentuk *Governance Failure* yang menghambat peran masjid di tengah ekosistem masyarakat.
+7. **Aspek 7 — Adopsi dan Perilaku Organisasi:** Menjawab tantangan jurang generasi, kelompok merumuskan solusi sosio-teknis berupa **Dual-Tier Operating Model (Model Operasional Generasi Ganda)**:
    - *Tier 1 (Strategic & Oversight):* Para sesepuh takmir tetap memegang otoritas moral, fatwa syariah, dan persetujuan kebijakan strategis (*steering committee*).
    - *Tier 2 (Operational & Execution):* Generasi muda REMAS diberdayakan secara resmi melalui SK Takmir sebagai operator data digital, pengelola repositori cloud, perancang publikasi visual, dan penyusun lembar transparansi kas mingguan.
 
@@ -307,7 +309,7 @@ Melalui pendekatan ini, digitalisasi tidak menyingkirkan para sesepuh, melainkan
 
 ## 7. Kesimpulan
 
-1. Berdasarkan triangulasi data multi-sumber (wawancara mendalam Sekretaris I Bpk. Mardiyanto, observasi partisipatif kader REMAS Fajar Ahnaf, data parsial TPA Mas Jefri, dan studi komparasi lapangan), kelompok berhasil mengidentifikasi 5 persoalan mendasar dalam ekosistem informasi Masjid Besar Baitul Hikmah.
+1. Berdasarkan triangulasi data multi-sumber (wawancara mendalam Sekretaris I Bpk. Mardiyanto, observasi partisipatif kader REMAS Fajar Ahnaf, data parsial TPA Mas Jefri, dan studi komparasi lapangan), kelompok berhasil mengidentifikasi **4 masalah terverifikasi dan 1 hipotesis kerja** dalam ekosistem informasi Masjid Besar Baitul Hikmah.
 2. Penelusuran kausalitas mendalam dengan *Fishbone Diagram* (6 dimensi) dan teknik *5-Why* membuktikan bahwa insiden musnahnya 70% data arsip pada Februari 2026 berakar pada **ketiadaan kerangka tata kelola informasi (*information governance framework*) dan regulasi internal organisasi**, bukan semata kerusakan fisik perangkat komputer.
 3. Ketiadaan dokumentasi Standar Operasional Prosedur (SOP) tertulis, ketergantungan ekstrem pada satu figur senior, dan kebiasaan daur-ulang berkas kepanitiaan lama secara turun-temurun (*hard drive legacy*) terbukti menjadi faktor struktural yang memicu disorientasi kepengurusan baru dan menghambat regenerasi pemuda.
 4. Evaluasi Matriks Prioritas Masalah (Dampak vs Upaya) menetapkan bahwa intervensi jangka pendek yang paling mendesak (*Quick Wins*) adalah: penyusunan SOP tata kelola pencadangan data hibrid berbasis cloud serta penyederhanaan alur pendaftaran layanan menjadi satu pintu (*single-entry*). Sedangkan rancang bangun sistem informasi terpadu (SIM-BaitulHikmah) diposisikan sebagai proyek strategis jangka menengah.
@@ -319,10 +321,13 @@ Melalui pendekatan ini, digitalisasi tidak menyingkirkan para sesepuh, melainkan
 
 - Davis, F. D. (1989). Perceived usefulness, perceived ease of use, and user acceptance of information technology. *MIS Quarterly*, 13(3), 319–340.
 - Goodhue, D. L., & Thompson, R. L. (1995). Task-technology fit and individual performance. *MIS Quarterly*, 19(2), 213–236.
+- Herzberg, F. (1959). *The motivation to work*. New York: John Wiley & Sons.
 - Ishikawa, K. (1976). *Guide to quality control*. Asian Productivity Organization.
 - Kementerian Agama Republik Indonesia. (2014). *Keputusan Direktur Jenderal Bimbingan Masyarakat Islam Nomor DJ.II/802 Tahun 2014 tentang Standar Pembinaan Manajemen Masjid*. Jakarta: Kemenag RI.
 - Kementerian Agama Republik Indonesia. (2016). *Peraturan Menteri Agama (PMA) Nomor 34 Tahun 2016 tentang Organisasi dan Tata Kerja Kantor Urusan Agama*. Jakarta: Kemenag RI.
 - Laudon, K. C., & Laudon, J. P. (2014). *Management information systems: Managing the digital firm* (13th ed.). Boston: Pearson Education.
 - Nonaka, I., & Takeuchi, H. (1995). *The knowledge-creating company: How Japanese companies create the dynamics of innovation*. Oxford: Oxford University Press.
 - Ohno, T. (1988). *Toyota production system: Beyond large-scale production*. New York: Productivity Press.
+- Putnam, R. D. (2000). *Bowling alone: The collapse and revival of American community*. New York: Simon & Schuster.
 - Romney, M. B., & Steinbart, P. J. (2018). *Accounting information systems* (14th ed.). New York: Pearson.
+
