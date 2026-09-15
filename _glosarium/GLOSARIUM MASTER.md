@@ -54,7 +54,7 @@ flowchart TD
 | Entitas | File | Status Data |
 |---|---|:---:|
 | **Masjid Besar Baitul Hikmah** | [[MBBH - Masjid Besar Baitul Hikmah/MBBH - Profil]] | ✅ Lengkap |
-| **TPA Baitul Hikmah** | [[MBBH - Masjid Besar Baitul Hikmah/TPA Baitul Hikmah/TPA - Profil]] | 🟡 Parsial |
+| **TPA Baitul Hikmah** | [[MBBH - Masjid Besar Baitul Hikmah/TPA Baitul Hikmah/TPA - Profil]] | ✅ Lengkap (Tervalidasi Empiris) |
 | **REMAS** | [[MBBH - Masjid Besar Baitul Hikmah/REMAS/REMAS - Profil]] | ✅ Cukup |
 
 ### 🏛️ Entitas Eksternal (Ekosistem)
@@ -64,7 +64,7 @@ flowchart TD
 | **KUA Kec. Gondokusuman** | [[KUA Kec. Gondokusuman/KUA - Profil]] | 🟡 Parsial |
 | **BAZNAS Kota Yogyakarta** | [[BAZNAS Kota Yogyakarta/BAZNAS - Profil]] | 🟡 Parsial |
 | **Kelurahan Klitren** | [[Kelurahan Klitren/Kelurahan - Profil]] | 🟡 Hipotesis |
-| **BADKO TPA** | [[BADKO TPA/BADKO - Profil]] | 🟡 Parsial |
+| **BADKO TPA** | [[BADKO TPA/BADKO - Profil]] | ✅ Tervalidasi (Koordinasi & IZOP) |
 
 ### 🕌 Masjid Pembanding & Benchmark
 
@@ -83,8 +83,9 @@ flowchart TD
 | KUA | Kemenag Kota | Rekapitulasi PHBI wilayah | PMA 34/2016 | — |
 | MBBH | BAZNAS | Laporan ZIS via SIMBA | UU Zakat | ❌ Belum terimplementasi |
 | Kelurahan | MBBH | Data mustahik DTKS | — | ❌ Belum ada alur |
-| TPA | BADKO | Laporan kegiatan & data santri | — | 🟡 Belum terverifikasi |
-| BADKO | Kemenag | Rekapitulasi TPA wilayah | — | — |
+| TPA | Kemenag | Master data santri & LPQ via EMIS | Regulasi LPQ Kemenag | ✅ Terintegrasi EMIS (Tahunan) |
+| BADKO | TPA | Koordinasi izin IZOP & standar kurikulum | Standar BKPRMI | ✅ Koordinasi aktif |
+| TPA | Wali Santri | Laporan capaian santri | SOP Mandiri | 🟡 Insidental (Belum rutin) |
 | MBBH | Jamaah | Laporan keuangan berkala | — | ❌ Tidak ada |
 
 ---
@@ -93,12 +94,12 @@ flowchart TD
 
 | Entitas | Data Tervalidasi | Data Hipotesis | Data Kosong |
 |---|:---:|:---:|:---:|
-| MBBH | Banyak ✅ | Mustahik DTKS 🟡 | Nominal kas ❌ |
-| TPA | Absensi Excel ✅ | Data internal 🟡 | Jumlah santri ❌ |
+| MBBH | Banyak ✅ | Mustahik DTKS 🟡 | Nominal kas takmir ❌ |
+| TPA | EMIS, 15 santri, SPP Rp0, Rek Mandiri, Gagal Rp10Jt ✅ | — | — |
 | KUA | Regulasi ✅ | — | Format laporan ❌ |
 | BAZNAS | SIMBA ada ✅ | — | Integrasi MBBH ❌ |
 | Kelurahan | DTKS ada ✅ | Koordinasi MBBH 🟡 | Verifikasi langsung ❌ |
-| BADKO | IZOP selesai ✅ | Laporan rutin 🟡 | Format standar ❌ |
+| BADKO | IZOP & BKPRMI selesai ✅ | — | — |
 
 ---
 

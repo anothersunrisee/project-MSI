@@ -45,20 +45,28 @@ Berikut adalah fakta *hard* dari transkrip wawancara Bpk. Mardianto (Sekretaris,
 - Mustahik ZIS: ditentukan **tanpa DTKS** kelurahan, berdasar pengamatan warga
 - QRIS & rekening bank: **sudah ada** atas nama masjid
 - **Data nominal infaq bulanan & volume qurban: BELUM TERVERIFIKASI** (perkiraan user, bukan dari wawancara) — jangan gunakan angka Rp 2-3 jt atau "3 sapi 10 kambing" sebagai fakta
-- **[TPA — Data Parsial dari Jefri Nur Ihsan (Ketua II/Direktur TPA), 7 Sep 2026 via WA]**
-  - Absensi santri: dicatat via **Excel/Spreadsheet** (bukan manual murni)
-  - Laporan ke orang tua: **hanya jika diperlukan** (tidak rutin)
-  - IZOP (Izin Operasional TPA): **sudah terbit** dari Kemenag (pernah beroperasi tanpa izin)
-  - Bottleneck IZOP: konfirmasi Kemenag harus **japri pribadi staf** (tidak ada jalur formal)
-  - BADKO TPA: menjadi **penghubung TPA ↔ Kemenag** untuk proses IZOP
-  - Data internal TPA (santri, ustadz, kegiatan): Jefri Nur Ihsan klaim *"sudah ada semua"*
-  - **Belum diperoleh:** jumlah santri aktif vs. dulu, kas SPP terpisah atau tidak, buku induk master santri
-- **[Data Tambahan dari Jefri Nur Ihsan, 14 Sep 2026 via WA — Hipotesis Motivasi Takmir]**
+- **[TPA Baitul Hikmah — Data Tervalidasi Empiris dari Wawancara Direktur TPA (Jefri Nur Ihsan, SE.I.), Sep 2026 (PAA.mp3)]**
+  - **Model Manajemen:** *Solo Management* — Mas Jefri mengampu seluruh fungsi administratif, perizinan, kurikulum, humas, dan keuangan TPA sendirian karena keterbatasan SDM pengurus.
+  - **Jumlah Santri Aktif:** Terverifikasi **15 anak terdaftar** (anjlok tajam / pernah vakum). Benchmark lokal: Masjid Al-Wahid Gambiran mencapai **140 santri**.
+  - **Akar Masalah Penurunan Santri:** Faktor sosio-kultural ketiadaan dorongan/komitmen orang tua warga sekitar MBBH (*lack of parental involvement* — orang tua membiarkan anak terserah mau mengaji atau tidak), bukan semata faktor Full-Day School atau gadget. Jadwal belajar diubah ke **ba'da Maghrib** (3× seminggu).
+  - **Arsitektur Data Santri (Hibrid Dual-Tier):**
+    - Harian: Menggunakan **kartu prestasi fisik** mencatat capaian dan paraf. Kartu **disimpan dan dikumpulkan di meja masjid** (TIDAK dibawa pulang oleh santri, memitigasi risiko hilang di rumah). Jika tercecer, penanganan mengandalkan ingatan ustadz.
+    - Master Data Tahunan: Terintegrasi secara digital di portal **EMIS (Education Management Information System) Kemenag RI (Kategori LPQ/TPA)**, mencakup profil lembaga, NIK santri/wali, rombel/kelas jilid, dan profil ustadz. Diperbarui setahun sekali tiap awal tahun ajaran baru.
+  - **Pengajar & Standarisasi Berjenjang (*Tiered Teaching*):** Didukung 4 marbot masjid. Kualifikasi dibagi 2: 2 marbot pemula hanya diizinkan mengajar Iqro 1–2 (makharijul huruf), sedangkan 2 marbot yang sudah tartil mengajar Iqro 3 ke atas hingga Al-Qur'an. Kenaikan jilid diperketat: boleh putus-putus asalkan makhraj dan panjang-pendek (*mad*) tepat.
+  - **Tata Kelola Keuangan & Pengendalian Internal (*Internal Control*):**
+    - Rekening kas: Memiliki **rekening bank mandiri atas nama TPA** (terpisah mutlak dari kas takmir masjid, bukan rekening pribadi).
+    - **SPP Santri: Rp 0 (GRATIS)** — kebijakan bebas iuran diterapkan untuk mencegah berhentinya 15 santri yang tersisa.
+    - **Subsidi Kas Masjid: Rp 0 (NOL bantuan)** dari Takmir MBBH ke operasional TPA.
+    - **Bisyarah Pengajar TPA: Rp 0 (tidak ada uang saku tunai rutin)**; insentif hanya berupa makan bersama bulanan santri-ustadz ketika kas program mencukupi.
+  - **Insiden Tata Kelola Kritis (Hangusnya Bantuan Kemenag Rp 10 Juta):** TPA memiliki alokasi bantuan operasional Kemenag sebesar **Rp 10.000.000/tahun**, namun **2 tahun berturut-turut GAGAL CAIR / HANGUS** akibat Izin Operasional (IZOP) kadaluwarsa (siklus 5 tahunan) tanpa adanya dokumentasi, pengingat, maupun serah terima (*handover*) jabatan dari pengurus takmir lama ke Mas Jefri.
+  - **Relasi Kelembagaan Eksternal:** Menginduk pada pembinaan **BADKO TPA Kemantren Gondokusuman** dan kurikulum standar **BKPRMI**. Syarat IZOP mewajibkan Syahadah Pengajar (sertifikasi guru Quran). BADKO berfungsi koordinatif penyalur informasi, bukan penerima laporan rutin.
+  - **Rencana Strategis (Integrasi Feeder TK):** Rencana peleburan manajemen TPA ke dalam ekosistem **TK Baitul Hikmah** (di mana pengurus takmir otomatis menjadi Komite TK) untuk menjamin pasokan santri berkesinambungan sejak usia dini.
+- **[Data Motivasi Takmir & Budaya Organisasi dari Jefri Nur Ihsan, 14 Sep 2026 via WA]**
   - Pertanyaan kelompok: apakah kurang regenerasi disebabkan ketiadaan upah formal?
   - Respons Mas Jefri: *"Kalo dari penglihatanku bukan karna sistem atau tidak ada upah. Memang budaya di warga kita seperti itu, jarang/sedikit yg mau ambil peran. Karna di pengurusan rt rw juga seperti itu, saling lempar dll."*
   - **Bisyarah pengurus takmir: Rp 150.000/bulan** dari kas infaq (dikonfirmasi). Marbot **tidak ada** bisyarah.
-  - **Interpretasi akademis (HIPOTESIS — belum divalidasi mendalam):** Bisyarah Rp150rb berfungsi sebagai *hygiene factor* (Herzberg, 1959) — mencegah ketidakpuasan tapi tidak cukup sebagai motivator aktif. Gejala "saling lempar" mengindikasikan erosi modal sosial komunal (Social Capital, Putnam 2000).
-  - **ANTI-HALUSINASI:** Jangan simpulkan bahwa takmir tidak bergaji total (ada bisyarah Rp150rb). Jangan klaim motivasi rendah disebabkan oleh upah semata — Mas Jefri eksplisit menyebut faktor budaya lebih dominan.
+  - **Interpretasi akademis (HIPOTESIS — tervalidasi sebagian):** Bisyarah Rp150rb berfungsi sebagai *hygiene factor* (Herzberg, 1959) — mencegah ketidakpuasan tapi tidak cukup sebagai motivator aktif. Gejala "saling lempar" mengindikasikan erosi modal sosial komunal (Social Capital, Putnam 2000). Mas Jefri mengonfirmasi pembahasan kas Bendahara saat rapat proker takmir buntu 1,5 jam karena tidak ada laporan tertulis dan minimnya inovasi generasi sepuh.
+  - **ANTI-HALUSINASI:** Jangan simpulkan bahwa takmir tidak bergaji total (ada bisyarah Rp150rb). Jangan klaim motivasi rendah disebabkan oleh upah semata — faktor budaya lokal dan ketiadaan sistem serah terima terstruktur lebih dominan.
 
 
 ### File Laporan yang Sudah Ada (Referensi Konsistensi)
